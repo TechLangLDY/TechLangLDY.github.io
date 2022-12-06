@@ -92,7 +92,7 @@
     --note-orange-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --first-screen-text-color: #323739;
+    --first-screen-text-color: #fff;
   }
 }
 .light-mode {
@@ -155,7 +155,7 @@
   --note-orange-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --first-screen-text-color: #323739;
+  --first-screen-text-color: #fff;
 }
 .fade-in-down-animation {
   animation-fill-mode: both;
@@ -697,7 +697,7 @@ button {
     --note-orange-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --first-screen-text-color: #323739;
+    --first-screen-text-color: #fff;
   }
 }
 .light-mode {
@@ -760,7 +760,7 @@ button {
   --note-orange-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --first-screen-text-color: #323739;
+  --first-screen-text-color: #fff;
 }
 :root {
   --code-foreground: #3b4143;
@@ -1192,7 +1192,7 @@ pre .selector-pseudo {
     --note-orange-title-bg: #4e3a1e;
     --note-black-title-bg: #1e1e1e;
     --note-purple-title-bg: #4e1e4e;
-    --first-screen-text-color: #323739;
+    --first-screen-text-color: #fff;
   }
 }
 .light-mode {
@@ -1255,7 +1255,7 @@ pre .selector-pseudo {
   --note-orange-title-bg: #4e3a1e;
   --note-black-title-bg: #1e1e1e;
   --note-purple-title-bg: #4e1e4e;
-  --first-screen-text-color: #323739;
+  --first-screen-text-color: #fff;
 }
 :root {
   --code-foreground: #3b4143;
@@ -2372,14 +2372,14 @@ pre .selector-pseudo {
 }
 @media (prefers-color-scheme: dark) {
   .first-screen-container {
-    background: url("/images/wallhaven-bg-dark.webp") center center/cover no-repeat !important;
+    background: url("/images/starsky.jpg") center center/cover no-repeat !important;
   }
 }
 .light-mode .first-screen-container {
   background: url("/images/wallhaven-bg-light.webp") center center/cover no-repeat !important;
 }
 .dark-mode .first-screen-container {
-  background: url("/images/wallhaven-bg-dark.webp") center center/cover no-repeat !important;
+  background: url("/images/starsky.jpg") center center/cover no-repeat !important;
 }
 .image-viewer-container {
   position: fixed;
