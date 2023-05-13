@@ -216,16 +216,6 @@
       </tags>
   </entry>
   <entry>
-    <title>谷歌1</title>
-    <url>/posts/f152f7d5.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>谷歌2</title>
-    <url>/posts/685ba66f.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>测试永久链接</title>
     <url>/posts/661cd695.html</url>
     <content><![CDATA[]]></content>
@@ -649,21 +639,6 @@
       <tags>
         <tag>写作实践</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>组会报告</title>
-    <url>/posts/f2473c7c.html</url>
-    <content><![CDATA[<p>五一假期到现在主要做三件事: 忙课程作业和党务工作，然后继续看有关ChatGPT的文章。</p>
-<h2 id="课程-amp-党务工作"><a href="#课程-amp-党务工作" class="headerlink" title="课程&amp;党务工作"></a>课程&amp;党务工作</h2><p>课程作业最近时间占比大，五月和六月估计还要占较多时间，数个pre正在走来，还在纠结选题和一些选题怎么实施。</p>
-<p>党务工作方面，研究生党支部重组，国际语言服务专业和翻译学重新组成了新支部，以后都会是这个支部代代继承下去了。由于是新组的，一切都是从头开始，很多东西都得靠自己摸索，并且事情也比较多，最近几乎每天一个至多个新通知，消耗的时间也蛮多的。准备等慢慢把各个流程标准化后在简言开个工作笔记帖子留给后来的新生，免得他们再手忙脚乱一次。</p>
-<h2 id="ChatGPT与其他"><a href="#ChatGPT与其他" class="headerlink" title="ChatGPT与其他"></a>ChatGPT与其他</h2><h3 id="设置图床，解决用-Markdown-发简言要重新上传图片的问题"><a href="#设置图床，解决用-Markdown-发简言要重新上传图片的问题" class="headerlink" title="设置图床，解决用 Markdown 发简言要重新上传图片的问题"></a>设置图床，解决用 Markdown 发简言要重新上传图片的问题</h3><p>用阿里云图床对象存储OSS+PicGO+Typora建了自己的图床，现在只要把图片拖进Typora图片就会自动上传并生成链接，以后往简言发文不用再一张一张重新传照片了。</p>
-<h3 id="看ChatGPT文章的产生的感慨与反思"><a href="#看ChatGPT文章的产生的感慨与反思" class="headerlink" title="看ChatGPT文章的产生的感慨与反思"></a>看ChatGPT文章的产生的感慨与反思</h3><h4 id="感慨"><a href="#感慨" class="headerlink" title="感慨"></a>感慨</h4><p>最近的一些细节开始印证前段时间企业们的确是在争分夺秒研究ChatGPT。</p>
-<p>我发现我的Grammarly昨天突然多了一个加号，出现AI辅助写作功能；韩老师发的那个字幕翻译也是，这个海报最开始我是在熊猫译社转发那看到的，这是在翻译方面我看到的第一个ChatGPT落实，紧接着下午的时候，之前签的创思立信来了一个字幕项目，它们的平台我还没正式用过，但看起来似乎还没啥加了ChatGPT的痕迹，我跟PM说很遗憾五月没时间期望六月能合作，但回想到上午看到的海报，我心底其实是对这句话打了个问号的，真到了六月，这需求还会在吗？会不会因为ChatGPT产品直接从人工翻译改MTPE了？如果那样本来就低的价格会不会更低？</p>
-<p>还有自动做PPT的专门产品也有了:<a href="https://motion.yoo-ai.com/mobilehome%EF%BC%8C%E6%88%91%E7%94%B3%E8%AF%B7%E4%BA%86%E4%BD%93%E9%AA%8C%EF%BC%8C%E6%98%A8%E5%A4%A9%E5%AE%A1%E6%A0%B8%E5%88%9A%E9%80%9A%E8%BF%87%EF%BC%8C%E8%BF%98%E6%B2%A1%E8%AF%95%E3%80%82%E6%80%BB%E4%B9%8B%EF%BC%8C%E6%9C%80%E8%BF%91%E7%94%9F%E6%B4%BB%E4%B8%AD%E7%94%A8%E5%88%B0%E7%9A%84%E5%BE%88%E5%A4%9A%E4%BA%A7%E5%93%81%E4%B8%80%E4%B8%8B%E5%AD%90%E9%83%BD%E6%AD%A6%E8%A3%85%E4%B8%8A%E4%BA%86AI%EF%BC%8C%E8%80%8C%E4%B8%94%E8%BF%99%E5%8A%BF%E5%A4%B4%E8%83%BD%E7%9C%8B%E5%87%BA%E8%BF%99%E8%BF%98%E5%8F%AA%E6%98%AF%E5%BC%80%E5%A7%8B%E3%80%82">https://motion.yoo-ai.com/mobilehome，我申请了体验，昨天审核刚通过，还没试。总之，最近生活中用到的很多产品一下子都武装上了AI，而且这势头能看出这还只是开始。</a></p>
-<p>这一刻再回想起几周以前我们围着长桌讨论企业怎么用ChatGPT的场景，很是感慨，真的太快。</p>
-<h4 id="反思"><a href="#反思" class="headerlink" title="反思"></a>反思</h4><p>最近我出现一个问题，各种看别人把ChatGPT跟各种方面结合在一起的例子，看一个想学一个，链接收藏了一大堆，手头正在尝试的反而停滞不前。之所以这样是出于俩原因，一是因为觉得自己手头试的虽然符合自己的实际需求，但是并没有普遍性，价值不大，所以总被别人的看起来价值大的吸引目光。二是其他人的例子要学是并不容易的，现在我看其他人的例子好像做得很容易，实际上这都是有他们之前在特定领域的积累在的，因此能很快起手。而我并没有那个基础，如果我想去一个新的方面学他们，再应用ChatGPT之前，先多出了一个新领域知识的学习成本，所以做不到像别人一样。</p>
-<p>因此我理清思路，明确了还是要回到我自己最熟悉最有根基的领域去找切入点。这样可能不够有新意，也不够价值大，但却会是我最可能做到深入有产出的地方，这样切入产出的东西可能不够我抓住这次机遇，但却可以成为一次有深度的积累，在下一次机遇时让我拥有像别人一样厚积薄发的可能。</p>
-]]></content>
   </entry>
   <entry>
     <title>Hexo 博客涉及到的几种文件</title>
