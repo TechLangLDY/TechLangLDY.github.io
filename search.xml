@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>dingding</title>
+    <url>/posts/edab9f40.html</url>
+    <content><![CDATA[<h1 id="钉钉如何切换25宫格-x2F-钉钉如何改变宫格数量"><a href="#钉钉如何切换25宫格-x2F-钉钉如何改变宫格数量" class="headerlink" title="钉钉如何切换25宫格&#x2F;钉钉如何改变宫格数量"></a>钉钉如何切换25宫格&#x2F;钉钉如何改变宫格数量</h1><ol>
+<li><p>打开电脑版钉钉会议界面，按下图指示找到【会议控制】选项，点击打开。</p>
+<p><img src="C:\Users\LI\AppData\Roaming\Typora\typora-user-images\image-20221219105915774.png" alt="image-20221219105915774"></p>
+</li>
+<li><p>在会议控制窗口按下图指示设置自己想要的宫格布局</p>
+<p><img src="C:\Users\LI\Documents\ShareX\Screenshots\2022-12\Xn1RJzuY2b.png" alt="Xn1RJzuY2b"></p>
+</li>
+<li><p>然后在会议界面点击【视图】，选择【宫格】即可。</p>
+<p><img src="C:\Users\LI\Documents\ShareX\Screenshots\2022-12\WWj39XyJj8.png" alt="WWj39XyJj8"></p>
+</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>写作实践</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>french</title>
+    <url>/posts/af75ce5e.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>francais</title>
     <url>/posts/1.html</url>
     <content><![CDATA[<h2 id="名词形容词的阴阳性单复数"><a href="#名词形容词的阴阳性单复数" class="headerlink" title="名词形容词的阴阳性单复数"></a>名词形容词的阴阳性单复数</h2><h3 id="1-口诀"><a href="#1-口诀" class="headerlink" title="1. 口诀"></a>1. 口诀</h3><p>经理跳舞只为卖面包从犹太人手里套消息</p>
@@ -30,31 +54,170 @@
       </tags>
   </entry>
   <entry>
-    <title>french</title>
-    <url>/posts/af75ce5e.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/posts/4a17b156.html</url>
-    <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo<i class="fas fa-external-link-alt"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fas fa-external-link-alt"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fas fa-external-link-alt"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fas fa-external-link-alt"></i></a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
-<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing<i class="fas fa-external-link-alt"></i></a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server<i class="fas fa-external-link-alt"></i></a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating<i class="fas fa-external-link-alt"></i></a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fas fa-external-link-alt"></i></a></p>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
   </entry>
   <entry>
-    <title>测试永久链接</title>
-    <url>/posts/661cd695.html</url>
+    <title>Markdown是什么？——一份简单易懂的教程</title>
+    <url>/posts/c67a526.html</url>
+    <content><![CDATA[<h1 id="Markdown是什么？——一份简单易懂的教程"><a href="#Markdown是什么？——一份简单易懂的教程" class="headerlink" title="Markdown是什么？——一份简单易懂的教程"></a>Markdown是什么？——一份简单易懂的教程</h1><h2 id="1-Markdown介绍"><a href="#1-Markdown介绍" class="headerlink" title="1. Markdown介绍"></a>1. Markdown介绍</h2><h3 id="1-1-是什么"><a href="#1-1-是什么" class="headerlink" title="1.1 是什么"></a>1.1 是什么</h3><p>首先，请看一张动图：</p>
+<p><img data-src="/markdown/Typora_GEBrtfNvgG-imageonline.co-7267369.gif" alt="Typora_GEBrtfNvgG-imageonline.co-7267369"></p>
+<p>有没有觉得很神奇？你只是在纯打字，按下换行的瞬间，没做任何操作，文本就自动拥有了美观的格式，左侧的【大纲】栏还自动生成了文章目录，整个过程美观又省心。</p>
+<p>这就是Markdown，如果让我用简单的话来介绍它，我会这样告诉你：</p>
+<blockquote>
+<p>Markdown 是一种写作方式，用这种方式写作时，只要在文本前添加特定的符号，就可以让文本自动变成特定的格式，从而为写作者省时省力。</p>
+</blockquote>
+<hr>
+<h3 id="1-2-适用场景"><a href="#1-2-适用场景" class="headerlink" title="1.2 适用场景"></a>1.2 适用场景</h3><p>如果你要做的，是类似写毕业论文这种，<strong>对格式有很多特定要求</strong>的写作，那么很遗憾，Markdown并不适合这种写作任务，因为它的字体字号等样式都是已经设定好的，没办法自己再调，这是因为这种写作方式的初心就是让你不必自己调格式。</p>
+<p>如果你要做的，是类似写讲座报告发给老师、在个人博客里写文章、在电脑上做学习笔记这种，<strong>不对具体字号字间距做要求</strong>，只要文章整体美观有条理就可以的写作，那就可以继续看下去啦。</p>
+<hr>
+<h3 id="1-3-上手试一试"><a href="#1-3-上手试一试" class="headerlink" title="1.3 上手试一试"></a>1.3 上手试一试</h3><p>如果你想使用Markdown，只需要：</p>
+<ol>
+<li>找一款支持这种写作方式的软件 </li>
+<li>记住那几个写在文本前的特定符号</li>
+</ol>
+<p>对于这两点，第二点是核心，只要懂得Markdown怎么用，用哪个Markdown工具都随便你。你可以在记住了这几个符号后，去体验各种不同的工具，比如我在文章开头给你做演示用的Typora。对于这些工具，在本文第二部分<strong>《2. Markdown 工具推荐》</strong>里，会有更详细的介绍。而现在我们需要先把重点放在自己敲一敲这些符号上。</p>
+<h4 id="1-3-1-试手工具"><a href="#1-3-1-试手工具" class="headerlink" title="1.3.1 试手工具"></a>1.3.1 试手工具</h4><p>为了方便，我们直接找个线上的工具体验，那就是——简言。没错，我们正在用的这个社区的编辑器就支持Markdown，所以你只需要在我这个帖子下点“回复”按钮，然后一边看接下来的文章内容，一边在跳出的输入框里输入文本体验就可以啦。</p>
+<p><img data-src="/markdown/image-20230331001603216.png" alt="image-20230331001603216"></p>
+<hr>
+<h4 id="1-3-2-试手样式"><a href="#1-3-2-试手样式" class="headerlink" title="1.3.2 试手样式"></a>1.3.2 试手样式</h4><p>我们按写一篇文章的逻辑顺序来试这些符号：</p>
+<h5 id="a-列全文粗纲-用标题"><a href="#a-列全文粗纲-用标题" class="headerlink" title="a. 列全文粗纲-用标题"></a>a. 列全文粗纲-用标题</h5><p>请在文本前输入：**# + 空格**。一个井号代表一级标题，两个井号二级标题，以此类推，一共可以到六级:</p>
+<blockquote>
+<p># 一级标题</p>
+<p>## 二级标题</p>
+<p>‘### 三级标题</p>
+<p>…</p>
+<p>###### 六级标题</p>
+</blockquote>
+<p>输出效果：</p>
+<blockquote>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><p>…</p>
+<h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6></blockquote>
+<h5 id="b-写正文细纲-用列表"><a href="#b-写正文细纲-用列表" class="headerlink" title="b. 写正文细纲-用列表"></a>b. 写正文细纲-用列表</h5><p>我们可以通过分点陈列的方式来写一段正文的细纲，也就是使用“列表”格式，请在文本前输入：**+ + 空格**：</p>
+<blockquote>
+<p>+ 第一个观点</p>
+</blockquote>
+<p>输出效果：</p>
+<blockquote>
+<ul>
+<li>第一个观点</li>
+</ul>
+</blockquote>
+<p>接下来，当你想另起一点时，只要按回车键换行就行了，下一行会自动生成一个小点点，当你想结束分点陈列时，就按两次回车键，退出列表格式。</p>
+<blockquote>
+<p>+ 第一个观点</p>
+<p>+ 第二个观点</p>
+<p>+ 第三个观点</p>
+</blockquote>
+<p>输出效果：</p>
+<blockquote>
+<ul>
+<li>第一个观点</li>
+<li>第二个观点</li>
+<li>第三个观点</li>
+</ul>
+</blockquote>
+<p>如果你的细纲还分多个层级，那就打多级列表，也就是在回车健换行之后再按个Tab键，那这一行列表就会自动缩进一个空格，这时，如果你想回到上一级列表，就按Shift+Tab健。退出列表则依旧是按多次回车。</p>
+<p>输出效果：</p>
+<blockquote>
+<ul>
+<li><p>第一个观点</p>
+<ul>
+<li>分论点一</li>
+<li>分论点二</li>
+</ul>
+</li>
+<li><p>第二个观点</p>
+</li>
+</ul>
+</blockquote>
+<p>如果你想这个列表是有序的，那就将“+”号替换成“1.”，即在文本前输入：<strong>1. + 空格</strong>，后续操作与上方的无序列表一样：</p>
+<blockquote>
+<ol>
+<li>第一个观点</li>
+</ol>
+</blockquote>
+<blockquote>
+<p>输出效果：</p>
+<ol>
+<li>第一个观点</li>
+<li>第二个观点</li>
+<li>第三个观点</li>
+</ol>
+</blockquote>
+<h5 id="d-突出重点字词-用加粗"><a href="#d-突出重点字词-用加粗" class="headerlink" title="d. 突出重点字词-用加粗"></a>d. 突出重点字词-用加粗</h5><p>写正文时，我们会突出重点，可以把它加粗，只需把重点内容包在两个星号（**）中：</p>
+<blockquote>
+<p>输入：*<em>想要加粗的内容</em>*</p>
+<p>显示效果：<strong>想要加粗的内容</strong></p>
+</blockquote>
+<h5 id="b-突出重点段落-用引用格式"><a href="#b-突出重点段落-用引用格式" class="headerlink" title="b. 突出重点段落-用引用格式"></a>b. 突出重点段落-用引用格式</h5><p>如果你想突出的是一个段落，那可以打一个像我上面这样，左边有一条线的文本格式，也就是“引用”格式。这需要在文本前输入：**&gt; + 空格**:</p>
+<blockquote>
+<p>&gt; 自己要写的文本</p>
+</blockquote>
+<p>输出效果：</p>
+<blockquote>
+<blockquote>
+<p>自己要写的文本</p>
+</blockquote>
+</blockquote>
+<h5 id="e-划分文章结构-用分割线"><a href="#e-划分文章结构-用分割线" class="headerlink" title="e. 划分文章结构-用分割线"></a>e. 划分文章结构-用分割线</h5><p>写完一部分后，我们可以加条分割线，使文章内容在视觉上结构更分明。这时，只需在单独的一行空行开头打上：—</p>
+<blockquote>
+<p>输入：-– </p>
+</blockquote>
+<p>输出效果：</p>
+<blockquote>
+<hr>
+</blockquote>
+<p>好了，试敲就到这里，相信通过这几个例子你应该能明白Markdown文本怎么写了，平时写作时一般这几个格式也就够用了，如果你还想学更多的样式，比如表格、添加图片、添加超链接等，请前往本文《1.4 Markdown 的所有语法》部分。</p>
+<hr>
+<h3 id="1-4-Markdown-的所有语法"><a href="#1-4-Markdown-的所有语法" class="headerlink" title="1.4 Markdown 的所有语法"></a>1.4 Markdown 的所有语法</h3><p>上文中，当需要不同格式时，我们需要往文本前添加不同符号，这种什么格式配什么符号的规则，我们叫它“语法”。Markdown 总共就以下这几个语法，其中平时频繁用到的更少，因此非常好记，你可以在需要时去官网查对应的语法：Markdown 基本语法 | Markdown 官方教程](<a href="https://markdown.com.cn/basic-syntax/)%E3%80%82">https://markdown.com.cn/basic-syntax/)。</a></p>
+<p><img data-src="/markdown/image-20230331010626373.png" alt="image-20230331010626373"></p>
+<h2 id="2-Markdown-工具推荐"><a href="#2-Markdown-工具推荐" class="headerlink" title="2. Markdown 工具推荐"></a>2. Markdown 工具推荐</h2><p>在你刚刚试敲Markdown的时候，你可能会有疑问：咦？为什么我的试敲跟文章开头的动图不一样，为什么我是左右两个框，而动图是即打即显？这是因为即打即显并不是Markdownd工具的普遍功能，所以如果你想要这样的效果，就要选择相对应的工具。支持Markdown的工具分两类，一类是软件形式，一类是平台形式，比如知乎简书之类的平台现在都支持使用Markdown。在这一部分我们就主要推荐一下好用的Markdown工具。</p>
+<h3 id="2-1-Typora"><a href="#2-1-Typora" class="headerlink" title="2.1 Typora"></a>2.1 Typora</h3><p>这款工具就是我在文章开头动图演示用的工具，它的一个最大特点就是即打即显，会自动生成文本大纲，并可以把文本导出成多种格式。它的官网是：<a href="https://typoraio.cn/">Typora 官方中文站 (typoraio.cn)</a>。这款好用的工具现在已经收费，89元三台设备买断，但是可以试用15天，你可以先试用看看。另外，typora最早期的beta版应该还是一直免费的，beta 版的功能我个人是觉得就已经够用，也可以试试。</p>
+<h2 id="3-关于Markdown使用的一些问题"><a href="#3-关于Markdown使用的一些问题" class="headerlink" title="3. 关于Markdown使用的一些问题"></a>3. 关于Markdown使用的一些问题</h2><h3 id="3-1-我对markdown的样式不满意！"><a href="#3-1-我对markdown的样式不满意！" class="headerlink" title="3.1 我对markdown的样式不满意！"></a>3.1 我对markdown的样式不满意！</h3><ol>
+<li><p>简单办法：换主题</p>
+<p>文本的样式是可以自己选的，以Typora为例，这个样式在Typora叫“主题”，你可以选择自己喜欢的样式：</p>
+<p><img data-src="/markdown/image-20230331220658571.png" alt="image-20230331220658571"></p>
+<p>我以我自己用的为例，平时写作时，我喜欢用类似drake-dark的主题，深色护眼：</p>
+<p><img data-src="/markdown/thumbnail-dark-1680609866763-1.png" alt="img"></p>
+<p>但在导出发给别人时，我会选择稍微漂亮点的，比如我最近的新宠Orange Heart主题：</p>
+<p><img data-src="/markdown/english-1680609866764-2.png" alt="english"></p>
+<p>具体Typora换主题教程：</p>
+<p>主题官网：<a href="https://theme.typora.io/">Themes Gallery — Typora</a></p>
+<p><a href="https://blog.csdn.net/weixin_44996090/article/details/104505277">Typora更换主题详细步骤_泰勒Peano的博客-CSDN博客</a></p>
+<p><a href="https://support.typoraio.cn/About-Themes/">About Themes - Typora Support (typoraio.cn)</a></p>
+</li>
+<li><p>复杂点的：自己定制CSS</p>
+<p>一般刚接触Markdown我不推荐这个方法，因为上面换主题那里一般就能找到自己喜欢的样式了。如果想要自己定制，可以等使用Markdown一段时间，确定自己会长期使用它以后再来自己定制。我个人的体验是自己定制自己的Markdown样式主要还是为了好玩，热情过去了一般也不会用了。</p>
+<p>由于时间有限，这个方法具体怎么做我自己就先不写了，先上一些网上的教程链接，注意，这个方法需要你会一点CSS知识：</p>
+<p><a href="https://blog.csdn.net/weixin_39578197/article/details/113404007">markdown如何调整行距_「行距怎么设置」【CSS】如何设置行距、段落间距、缩进格式 - seo实验室…_weixin_39578197的博客-CSDN博客</a></p>
+<p><a href="https://blog.csdn.net/chotin/article/details/104289298">【Typora CSS】自定义typora界面风格_typora自定义css_两头大的博客-CSDN博客</a></p>
+<p><a href="https://www.cnblogs.com/Sky-seeker/p/14255593.html">Markdown样式自定义及详解-博客园、Typora、Markdown Nice - 梦幻之心星 - 博客园 (cnblogs.com)</a></p>
+</li>
+</ol>
+<h3 id="3-2-那我怎么输入井号星号那些符号呢？"><a href="#3-2-那我怎么输入井号星号那些符号呢？" class="headerlink" title="3.2 那我怎么输入井号星号那些符号呢？"></a>3.2 那我怎么输入井号星号那些符号呢？</h3><p>只需要在这些符号前面输入一个反斜杠就可以了。</p>
+]]></content>
+      <tags>
+        <tag>写作实践</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>谷歌1</title>
+    <url>/posts/f152f7d5.html</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -63,8 +226,472 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>谷歌1</title>
-    <url>/posts/f152f7d5.html</url>
+    <title>测试永久链接</title>
+    <url>/posts/661cd695.html</url>
     <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>test</title>
+    <url>/posts/d87f7e0c.html</url>
+    <content><![CDATA[<p>这是测试</p>
+<p>测试图片</p>
+<p><img data-src="/test/image-20230404200928439.png" alt="image-20230404200928439"></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>ceshifenlei</title>
+    <url>/posts/78de23d9.html</url>
+    <content><![CDATA[<h1 id="这是测试"><a href="#这是测试" class="headerlink" title="这是测试"></a>这是测试</h1><p>测试分类功能</p>
+<p><img src="/ceshifenlei/image-20230406105613596.png" alt="image-20230406105613596"></p>
+]]></content>
+      <categories>
+        <category>web前端</category>
+      </categories>
+      <tags>
+        <tag>项目管理</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>lecon17</title>
+    <url>/posts/83dc959.html</url>
+    <content><![CDATA[<p>第十七课 </p>
+<h2 id="Vocabulaire-词汇"><a href="#Vocabulaire-词汇" class="headerlink" title="Vocabulaire 词汇"></a>Vocabulaire 词汇</h2><p>acheter v.t. 买 变位同lever<br>assez adv. 足够地<br>beurre n.m.<br>boire v.t.<br>bouteille n.f.<br>Chandeleur n.f.<br>cidre n.m.<br>coca n.m.<br>confiture n.f.<br>crêpe n.f.<br>eau n.f.<br>il faut v.impers.<br>farine n.f.<br>fromage n.m.<br>gramme n.m.<br>inviter v.t.<br>Viloloramme） n m</p>
+<h2 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h2><h3 id="1-部分冠词-L’article-partitif"><a href="#1-部分冠词-L’article-partitif" class="headerlink" title="1. 部分冠词 L’article partitif"></a>1. 部分冠词 L’article partitif</h3><h4 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h4><ul>
+<li>用在不可数名词前</li>
+<li>表整体中的一部分</li>
+<li>该物质数量该是不确定或不可数的</li>
+</ul>
+<h4 id="形式"><a href="#形式" class="headerlink" title="形式"></a>形式</h4><ul>
+<li>单数<ul>
+<li>阳性 du(de l’)</li>
+<li>阴性 de la(de l’)</li>
+</ul>
+</li>
+<li>复数<ul>
+<li>des</li>
+</ul>
+</li>
+</ul>
+<p>elle ai bien le cqfe</p>
+<p>un cafe </p>
+<p>du cafe</p>
+<h4 id="不可数名词范围"><a href="#不可数名词范围" class="headerlink" title="不可数名词范围"></a>不可数名词范围</h4><ul>
+<li>不可数的物质名词</li>
+<li>抽象名词</li>
+</ul>
+<h4 id="注意点"><a href="#注意点" class="headerlink" title="注意点"></a>注意点</h4>]]></content>
+      <categories>
+        <category>语言学习</category>
+      </categories>
+      <tags>
+        <tag>法语学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/posts/0.html</url>
+    <content><![CDATA[<h1 id="为了不做PPT，用Markdown做了一个自己的PPT模板"><a href="#为了不做PPT，用Markdown做了一个自己的PPT模板" class="headerlink" title="为了不做PPT，用Markdown做了一个自己的PPT模板"></a>为了不做PPT，用Markdown做了一个自己的PPT模板</h1><p>[toc]</p>
+<h2 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h2><p>最近刚做完一个pre，用Markdown转的PDF来代替PPT：</p>
+<p><img src="/%E7%94%A8markdown%E5%81%9Appt/image-20230412192945335.png" alt="image-20230412192945335"></p>
+<p>这种方法美观省力，完全不输PPT，但是有一个缺点，就是<strong>每次都要停下讲话去手动一点点拖动页面展示，并且页面需要自己手动放大缩小，干扰pre节奏。</strong>所以我希望能把Markdown变成ppt那种小页一小页的样式。</p>
+<h2 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h2><p>我先搜了Markdown转PPT，在这个过程中发现，早就有用Markdown写PPT的工具了：</p>
+<p><a href="https://marp.app/">Marp: Markdown Presentation Ecosystem</a></p>
+<p><a href="https://sspai.com/post/55718">Marp：用 Markdown「写」PPT 的新选择 - 少数派 (sspai.com)</a></p>
+<p>而且这个工具只要给Visual Studio Code加个插件就能用，妙！只不过，这款工具——<strong>Marp</strong>——的默认主题<del>有点丑</del>不够好看。因此，我想在其基础上自定义一款用于PPT的Markdown样式。</p>
+<h2 id="成果"><a href="#成果" class="headerlink" title="成果"></a>成果</h2><p>于是，在一位知乎网友<a href="https://zhuanlan.zhihu.com/p/449668027">BeWater</a>提供的方案基础上，我做了一套用于翻译课程pre的简约风PPT模板，有了它，以后我只需要写Markdown就可以做PPT了：</p>
+<p><img src="/%E7%94%A8markdown%E5%81%9Appt/image-20230412200802067.png" alt="image-20230412200802067"></p>
+<p>下面展示一下模板的内容：</p>
+<h3 id="封面样式："><a href="#封面样式：" class="headerlink" title="封面样式："></a>封面样式：</h3><p><img src="/%E7%94%A8markdown%E5%81%9Appt/%E5%B9%BB%E7%81%AF%E7%89%871.jpg" alt="幻灯片1"></p>
+<p>做这张封面我只需要打以下四行:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![bg vertical w:1300px](images/p1.jpg) --&gt;这行是引入背景图用的</span><br><span class="line"></span><br><span class="line">**# 《皇二子“袁寒云”的一生》** --&gt;大标题 pre具体名称</span><br><span class="line"></span><br><span class="line">**## 汉英文化外译课程讨论** --&gt;副标题 所属课程</span><br><span class="line"></span><br><span class="line">**### By LiShanlan 2023.4.12** --&gt;作者时间 </span><br></pre></td></tr></table></figure>
+
+<h3 id="目录样式："><a href="#目录样式：" class="headerlink" title="目录样式："></a>目录样式：</h3><p><img src="/%E7%94%A8markdown%E5%81%9Appt/%E5%B9%BB%E7%81%AF%E7%89%872.jpg" alt="幻灯片2"></p>
+<p>同理：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![bg vertical w:1300px](./images/mulu.jpg)</span><br><span class="line"></span><br><span class="line"># 1. 朝鲜汉城</span><br><span class="line"># 2. 解释策略</span><br><span class="line"># 3. 先公、生母慈母</span><br><span class="line"># 4. 名克文、字豹岑</span><br><span class="line"># 5. 甲午战争与天津小站</span><br></pre></td></tr></table></figure>
+
+<h3 id="呈现原译文部分样式："><a href="#呈现原译文部分样式：" class="headerlink" title="呈现原译文部分样式："></a>呈现原译文部分样式：</h3><p>用单行代码样式打原文，引用样式打译文：</p>
+<p><img src="/%E7%94%A8markdown%E5%81%9Appt/%E5%B9%BB%E7%81%AF%E7%89%873.jpg" alt="幻灯片3"></p>
+<p><img src="/%E7%94%A8markdown%E5%81%9Appt/%E5%B9%BB%E7%81%AF%E7%89%877.jpg" alt="幻灯片7"></p>
+<h3 id="译文分析部分样式："><a href="#译文分析部分样式：" class="headerlink" title="译文分析部分样式："></a>译文分析部分样式：</h3><h4 id="展示图片："><a href="#展示图片：" class="headerlink" title="展示图片："></a>展示图片：</h4><p><img src="/%E7%94%A8markdown%E5%81%9Appt/%E5%B9%BB%E7%81%AF%E7%89%874.jpg" alt="幻灯片4"></p>
+<p>插入的图片会自动变成图中大小和样式，再也不需要手动调。</p>
+<h4 id="展示参考材料："><a href="#展示参考材料：" class="headerlink" title="展示参考材料："></a>展示参考材料：</h4><p><img src="/%E7%94%A8markdown%E5%81%9Appt/%E5%B9%BB%E7%81%AF%E7%89%875.jpg" alt="幻灯片5"></p>
+<h4 id="展示分析提纲："><a href="#展示分析提纲：" class="headerlink" title="展示分析提纲："></a>展示分析提纲：</h4><p><img src="/%E7%94%A8markdown%E5%81%9Appt/%E5%B9%BB%E7%81%AF%E7%89%876.jpg" alt="幻灯片6"></p>
+<h3 id="结尾："><a href="#结尾：" class="headerlink" title="结尾："></a>结尾：</h3><p><img src="/%E7%94%A8markdown%E5%81%9Appt/%E5%B9%BB%E7%81%AF%E7%89%878.jpg" alt="幻灯片8"></p>
+<h2 id="收北语高清美图！"><a href="#收北语高清美图！" class="headerlink" title="收北语高清美图！"></a>收北语高清美图！</h2><p>未来一段时间我会把这套模板投入使用，看看是否的确能起到一劳永逸的效果，如果效果好，我会再写文章详细介绍定制过程，并分享我我做的模板。在这之前，在此贴收集一些北语高清美图做PPT素材，我想做一套类似下图这样的北语学院风PPT模板：</p>
+<p><img src="https://picx.zhimg.com/v2-41ee627e7bc0e477996f28e8586d92bc_1440w.jpg?source=172ae18b" alt="幻灯片8"></p>
+<p>到时候可以做一系列不同颜色主题不同北语风景图的PPT，然后每次挑一个，想想就觉得很棒！</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>home</title>
+    <url>/posts/undefined.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>cover</title>
+    <url>/posts/undefined.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>标语国际化建设平台产品需求文档</title>
+    <url>/posts/undefined.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>标语国际化制作平工具包台</title>
+    <url>/posts/dacf00de.html</url>
+    <content><![CDATA[<h2 id="产品模型设计"><a href="#产品模型设计" class="headerlink" title="产品模型设计"></a>产品模型设计</h2><ol>
+<li><p>Layoutlt</p>
+<p><a href="https://www.layoutit.com/">https://www.layoutit.com/</a></p>
+</li>
+</ol>
+<h2 id="项目管理工具"><a href="#项目管理工具" class="headerlink" title="项目管理工具"></a>项目管理工具</h2><ol>
+<li>Teambition</li>
+<li>Ganttlibre</li>
+</ol>
+]]></content>
+      <categories>
+        <category>拥抱技术 - 网站开发</category>
+      </categories>
+      <tags>
+        <tag>网站开发</tag>
+        <tag>工具介绍</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>teat555</title>
+    <url>/posts/4b5ffd77.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>test111</title>
+    <url>/posts/35779054.html</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>拥抱技术</category>
+        <category>CSS</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>test222</title>
+    <url>/posts/85152c74.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>test333</title>
+    <url>/posts/eacb4794.html</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>翻译杂谈</category>
+        <category>自由译者</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>test666</title>
+    <url>/posts/e11d85b5.html</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>生活随想</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>test777</title>
+    <url>/posts/8ec3ee55.html</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>拥抱技术</category>
+        <category>云计算</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>标语国际化建设平台产品需求书</title>
+    <url>/posts/68e4bd27.html</url>
+    <content><![CDATA[<h1 id="标语国际化建设平台产品需求书"><a href="#标语国际化建设平台产品需求书" class="headerlink" title="标语国际化建设平台产品需求书"></a>标语国际化建设平台产品需求书</h1><h2 id="主要功能"><a href="#主要功能" class="headerlink" title="主要功能"></a>主要功能</h2><ol>
+<li>标语采集<ol>
+<li>收集标语地址</li>
+<li>收集标语原文</li>
+<li>校对标语原文</li>
+</ol>
+</li>
+<li>标语翻译<ol>
+<li>翻译</li>
+<li>审校</li>
+</ol>
+</li>
+<li>标语公示<ol>
+<li>接收遗漏标语</li>
+<li>接收反馈意见</li>
+</ol>
+</li>
+<li>标语制作（暂定，不一定做）<ol>
+<li>制作打印文件，可当场预览调整，然后生成打印文件</li>
+<li>自动生成一张标语信息列表，用于更换标语时确定地址</li>
+</ol>
+</li>
+</ol>
+<h2 id="用户角色"><a href="#用户角色" class="headerlink" title="用户角色"></a>用户角色</h2><ol>
+<li>采集员</li>
+<li>译者</li>
+<li>游客</li>
+<li>管理员</li>
+</ol>
+<h2 id="角色权限"><a href="#角色权限" class="headerlink" title="角色权限"></a>角色权限</h2><ol>
+<li>所有人注册，初始身份都是游客，登录进去的主页面只有游客的提供意见功能</li>
+<li>由管理员批量给用户授权，每个用户可授予多个权限，权限一共包括：采集 翻译 审校 标语制作</li>
+<li>得到其他权限的用户登录后会看到左侧导航栏多出相应功能，点击进入即可进入相应工作页面</li>
+</ol>
+<h2 id="分页面介绍"><a href="#分页面介绍" class="headerlink" title="分页面介绍"></a>分页面介绍</h2>]]></content>
+      <categories>
+        <category>网站开发</category>
+      </categories>
+      <tags>
+        <tag>网站开发</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>建站笔记</title>
+    <url>/posts/4d1df81a.html</url>
+    <content><![CDATA[<h1 id="网站建站笔记"><a href="#网站建站笔记" class="headerlink" title="网站建站笔记"></a>网站建站笔记</h1><h2 id="美化"><a href="#美化" class="headerlink" title="美化"></a>美化</h2><ol>
+<li>light mode 色彩方案</li>
+<li>night mode 色彩方案</li>
+<li>read mode 色彩方案</li>
+</ol>
+<h3 id="待处理的问题"><a href="#待处理的问题" class="headerlink" title="待处理的问题"></a>待处理的问题</h3><ol>
+<li>字体太细</li>
+<li>链接颜色</li>
+<li>文章封面加载太慢——换成card不加封面</li>
+<li>标签处的五颜六色没了</li>
+<li>调整侧边栏卡片位置</li>
+<li>测试一下markdown样式</li>
+</ol>
+<h2 id="配色工具"><a href="#配色工具" class="headerlink" title="配色工具"></a>配色工具</h2><ol>
+<li>pixaby 可以按自己想的颜色搭配找图</li>
+</ol>
+]]></content>
+      <categories>
+        <category>网站开发</category>
+      </categories>
+      <tags>
+        <tag>测试标签</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Markdown常用样式测试</title>
+    <url>/posts/1f3cf827.html</url>
+    <content><![CDATA[<h1 id="可表示1-6级标题"><a href="#可表示1-6级标题" class="headerlink" title="可表示1-6级标题"></a>可表示1-6级标题</h1><p>斜体 : <em>斜体</em><br>粗体 : <strong>粗体</strong><br>粗体加斜体 : <em><strong>粗体加斜体</strong></em></p>
+<p>🐫 😊 😄 : :smil\e:(去掉斜线)<br>分割线(下面这条) : —</p>
+<p>上角标 : ^上角标^<br>下角标 : <del>下角标</del><br>删除线 : <del>删除线</del><br>下划线 : <u>下划线</u></p>
+<p>无序列表 : - 无序列表<br>有序列表 : 1. 有序列表<br> 代办列表 : - [ ]代办列表<br> 已完成 : - [x]已完成<br>区块 : &gt; 区块</p>
+<p>可以嵌套 : &gt;&gt; 可以嵌套</p>
+<p>代码 : <code>代码</code></p>
+<p>代码段 : <code>代码段 </code><br>1<br>链接 : <a href="%E7%BD%91%E5%9D%80">链接</a></p>
+<p>图片 : <img src="/%E7%BD%91%E5%9D%80" alt="描述">, 注意某些网址不适用, 比如csdn</p>
+<p>其他html元素<br>Ctrl : <kbd>Ctrl</kbd><br>\ : 转义</p>
+<p>f ( x ) &#x3D; a − b f(x)&#x3D;a-bf(x)&#x3D;a−b : $f(x)&#x3D;a-b$</p>
+<p>$$f(x)&#x3D;a+b$$(删掉斜杠) 如下<br>f ( x ) &#x3D; a + b f(x)&#x3D;a+b<br>f(x)&#x3D;a+b</p>
+<p>高级公式和矩阵用到了自己去搜<br>还支持各种流程图<br>————————————————<br>版权声明：本文为CSDN博主「不住在隔壁的老王」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。<br>原文链接：<a href="https://blog.csdn.net/u012355401/article/details/122843905">https://blog.csdn.net/u012355401/article/details/122843905</a></p>
+]]></content>
+      <categories>
+        <category>翻译杂谈</category>
+      </categories>
+      <tags>
+        <tag>英语</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>portfolio</title>
+    <url>/posts/undefined.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>Markdown是什么？——一份简单易懂的教程</title>
+    <url>/posts/c67a526.html</url>
+    <content><![CDATA[<h1 id="Markdown是什么？——一份简单易懂的教程"><a href="#Markdown是什么？——一份简单易懂的教程" class="headerlink" title="Markdown是什么？——一份简单易懂的教程"></a>Markdown是什么？——一份简单易懂的教程</h1><p>首先，请看一张动图：</p>
+<p><img src="https://myblldy.oss-cn-beijing.aliyuncs.com/img/Typora_GEBrtfNvgG-imageonline.co-7267369.gif" alt="用Typora演示Markdown"></p>
+<p>有没有觉得很神奇？你只是在纯打字，按下换行的瞬间，没做任何操作，文本就自动拥有了美观的格式，左侧的【大纲】栏还自动生成了文章目录，整个过程美观又省心。</p>
+<p>这就是Markdown，如果让我用简单的话来介绍它，我会这样告诉你：</p>
+<blockquote>
+<p>Markdown 是一种写作方式，用这种方式写作时，只要在文本前添加特定的符号，就可以让文本自动变成特定的格式，从而为写作者省时省力。</p>
+</blockquote>
+<h2 id="1-Markdown介绍"><a href="#1-Markdown介绍" class="headerlink" title="1. Markdown介绍"></a>1. Markdown介绍</h2><h3 id="1-1-适用场景"><a href="#1-1-适用场景" class="headerlink" title="1.1 适用场景"></a>1.1 适用场景</h3><p>如果你要做的，是类似写毕业论文这种，<strong>对格式有很多特定要求</strong>的写作，那么很遗憾，Markdown并不适合这种写作任务，因为它的字体字号等样式都是已经设定好的，没办法自己再调，这是因为这种写作方式的初心就是让你不必自己调格式。</p>
+<p>如果你要做的，是类似写报告发给他人、在个人博客里写文章、在电脑上做学习笔记这种，<strong>不对具体字号字间距做要求</strong>，只要文章整体美观有条理就可以的写作，那Markdown会是让你省时省力的好选择。</p>
+<hr>
+<h3 id="1-2-上手试一试"><a href="#1-2-上手试一试" class="headerlink" title="1.2 上手试一试"></a>1.2 上手试一试</h3><p>想学Markdown其实很快，如果你想使用Markdown，只需要：</p>
+<ol>
+<li>找一款支持这种写作方式的软件 </li>
+<li>记住那几个写在文本前的特定符号</li>
+</ol>
+<p>对于这两点，第二点是核心，只要懂得Markdown怎么用，用哪个工具都随便你。你可以在记住了这几个符号后，去体验各种不同的工具，比如我在文章开头给你做演示用的Typora。而这些符号其实自己敲几次很快就能记住，所以你可以边看这篇文章边跟我做，在读的同时顺手就把Markdown学了。</p>
+<h4 id="1-2-1-试手工具"><a href="#1-2-1-试手工具" class="headerlink" title="1.2.1 试手工具"></a>1.2.1 试手工具</h4><p>我们可以用文章开头演示的Typora来试手，因为它的使用体验比较好。这个软件现在是收费的，但是之前的免费版本网上也有，并且免费版功能就已经够用，所以无论你是想用付费版还是免费版都可以满足需求。</p>
+<p>最新版Typora有15天试用期，我们就选它来试手。首先进入<a href="https://typoraio.cn/">Typora 官网 </a>，下拉到下载部分，下载并安装对应系统的Typora：</p>
+<p><img src="https://myblldy.oss-cn-beijing.aliyuncs.com/img/image-20230509141049770.png" alt="Typora官网下载处"></p>
+<p>当然，如果你嫌下软件麻烦，也可以选个点击即用的线上工具，比如这个：<a href="https://tool.offso.com/markdown">Markdown在线编辑器,所见即所得 | 沃夫工具 (offso.com)</a>。线上工具的差别只在它是左边打字右边实时预览，在学Markdown的效果上没什么区别：</p>
+<p><img src="https://myblldy.oss-cn-beijing.aliyuncs.com/img/image-20230509142300917.png" alt="在线Markdown工具-沃夫"></p>
+<hr>
+<h4 id="1-2-2-试手样式"><a href="#1-2-2-试手样式" class="headerlink" title="1.2.2 试手样式"></a>1.2.2 试手样式</h4><p>那么正式开始吧！你可以把你的试手工具和这篇知乎文章一左一右同时打开在电脑桌面上，然后跟着我一起敲这些符号。</p>
+<p>我们按写一篇文章的逻辑顺序来：</p>
+<h5 id="a-列全文粗纲-用标题样式"><a href="#a-列全文粗纲-用标题样式" class="headerlink" title="a. 列全文粗纲-用标题样式"></a>a. 列全文粗纲-用标题样式</h5><p>请在文本前输入：**# + 空格**。一个井号代表一级标题，两个井号二级标题，以此类推，一共可以到六级:</p>
+<blockquote>
+<p># 一级标题</p>
+<p>## 二级标题</p>
+<p>‘### 三级标题</p>
+<p>…</p>
+<p>###### 六级标题</p>
+</blockquote>
+<p>输出效果：</p>
+<blockquote>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><p>…</p>
+<h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6></blockquote>
+<h5 id="b-写正文细纲-用列表样式"><a href="#b-写正文细纲-用列表样式" class="headerlink" title="b. 写正文细纲-用列表样式"></a>b. 写正文细纲-用列表样式</h5><p>我们可以通过分点陈列的方式来写一段正文的细纲，也就是使用“列表”格式，请在文本前输入：**+ + 空格**：</p>
+<blockquote>
+<p>+ 第一个观点</p>
+</blockquote>
+<p>输出效果：</p>
+<blockquote>
+<ul>
+<li>第一个观点</li>
+</ul>
+</blockquote>
+<p>接下来，当你想另起一点时，只要按回车键换行就行了，下一行会自动生成一个小点点，当你想结束分点陈列时，就按两次回车键，退出列表格式。</p>
+<blockquote>
+<p>+ 第一个观点</p>
+<p>+ 第二个观点</p>
+<p>+ 第三个观点</p>
+</blockquote>
+<p>输出效果：</p>
+<blockquote>
+<ul>
+<li>第一个观点</li>
+<li>第二个观点</li>
+<li>第三个观点</li>
+</ul>
+</blockquote>
+<p>如果你的细纲还分多个层级，那就打多级列表，也就是在回车健换行之后再按个Tab键，那这一行列表就会自动缩进一个空格，这时，如果你想回到上一级列表，就按Shift+Tab健。退出列表则依旧是按多次回车。</p>
+<p>输出效果：</p>
+<blockquote>
+<ul>
+<li><p>第一个观点</p>
+<ul>
+<li>分论点一</li>
+<li>分论点二</li>
+</ul>
+</li>
+<li><p>第二个观点</p>
+</li>
+</ul>
+</blockquote>
+<p>如果你想这个列表是有序的，那就将“+”号替换成“1.”，即在文本前输入：<strong>1. + 空格</strong>，后续操作与上方的无序列表一样：</p>
+<blockquote>
+<ol>
+<li>第一个观点</li>
+</ol>
+</blockquote>
+<blockquote>
+<p>输出效果：</p>
+<ol>
+<li>第一个观点</li>
+<li>第二个观点</li>
+<li>第三个观点</li>
+</ol>
+</blockquote>
+<h5 id="d-突出重点字词-用加粗样式"><a href="#d-突出重点字词-用加粗样式" class="headerlink" title="d. 突出重点字词-用加粗样式"></a>d. 突出重点字词-用加粗样式</h5><p>写正文时，我们会突出重点，可以把它加粗，只需把重点内容包在两个星号（**）中：</p>
+<blockquote>
+<p>输入：*<em>想要加粗的内容</em>*</p>
+<p>显示效果：<strong>想要加粗的内容</strong></p>
+</blockquote>
+<h5 id="b-突出重点段落-用引用格式"><a href="#b-突出重点段落-用引用格式" class="headerlink" title="b. 突出重点段落-用引用格式"></a>b. 突出重点段落-用引用格式</h5><p>如果你想突出的是一个段落，那可以打一个像我上面这样，左边有一条线的文本格式，也就是“引用”格式。这需要在文本前输入：**&gt; + 空格**:</p>
+<blockquote>
+<p>&gt; 自己要写的文本</p>
+</blockquote>
+<p>输出效果：</p>
+<blockquote>
+<blockquote>
+<p>自己要写的文本</p>
+</blockquote>
+</blockquote>
+<h5 id="e-划分文章结构-用分割线样式"><a href="#e-划分文章结构-用分割线样式" class="headerlink" title="e. 划分文章结构-用分割线样式"></a>e. 划分文章结构-用分割线样式</h5><p>写完一部分后，我们可以加条分割线，使文章内容在视觉上结构更分明。这时，只需在单独的一行空行开头打上：—</p>
+<blockquote>
+<p>输入：-– </p>
+</blockquote>
+<p>输出效果：</p>
+<blockquote>
+<hr>
+</blockquote>
+<p>好了，试敲就到这里，相信通过这几个例子你应该能明白Markdown文本怎么写了，平时写作时一般这几个格式也就够用了，如果你还想学更多的样式，比如表格、添加图片、添加超链接等，请前往本文《1.4 Markdown 的所有语法》部分。</p>
+<hr>
+<h3 id="1-3-Markdown-的所有语法"><a href="#1-3-Markdown-的所有语法" class="headerlink" title="1.3 Markdown 的所有语法"></a>1.3 Markdown 的所有语法</h3><p>上文中，当需要不同格式时，我们需要往文本前添加不同符号，这种什么格式配什么符号的规则，我们叫它“语法”。Markdown 所有语法加起来也没多少，其中平时频繁用到的更少，因此非常好记，你可以在需要时去官网查对应的语法：Markdown 基本语法 | Markdown 官方教程](<a href="https://markdown.com.cn/basic-syntax/)%E3%80%82">https://markdown.com.cn/basic-syntax/)。</a></p>
+<p><img src="https://myblldy.oss-cn-beijing.aliyuncs.com/img/image-20230331010626373.png" alt="Markdown基本语法"></p>
+<p>事实上，Markdown还有更多玩法，比如做思维导图、甘特图，甚至是做PPT，这些等你在熟悉它以后，如果还感兴趣，可以再去探索。</p>
+<h2 id="2-Markdown-工具推荐"><a href="#2-Markdown-工具推荐" class="headerlink" title="2. Markdown 工具推荐"></a>2. Markdown 工具推荐</h2><p>如果你选择的试手工具是线上的，你可能会有疑问：为什么我这个和文章开头的动图不一样？为什么我这个不是即打即显？这是因为即打即显并不是Markdownd工具的普遍功能，所以如果你想要这样的效果，就要选择相对应的工具。</p>
+<p>Markdown工具分两类，一类是软件形式，比如 Typora，一类是平台形式，比如知乎简书之类的平台现在都支持使用Markdown。因此，这一部分主要推荐些好用的Markdown工具。</p>
+<h3 id="2-1-Typora"><a href="#2-1-Typora" class="headerlink" title="2.1 Typora"></a>2.1 Typora</h3><p>这款工具就是我在文章开头动图演示用的工具，它的一个最大特点就是即打即显，会自动生成文本大纲，并可以把文本导出成多种格式。它的官网是：<a href="https://typoraio.cn/">Typora 官方中文站 (typoraio.cn)</a>。这款好用的工具现在已经收费，89元三台设备买断，但是可以试用15天，你可以先试用看看。另外，如上文所说，typora早期的beta版还是免费的，其功能我个人是觉得就已经够用，你也可以去网上搜索相应资源。</p>
+<h2 id="3-关于Markdown使用的一些问题"><a href="#3-关于Markdown使用的一些问题" class="headerlink" title="3. 关于Markdown使用的一些问题"></a>3. 关于Markdown使用的一些问题</h2><h3 id="3-1-我对markdown的样式不满意？"><a href="#3-1-我对markdown的样式不满意？" class="headerlink" title="3.1 我对markdown的样式不满意？"></a>3.1 我对markdown的样式不满意？</h3><p>Markdown文本的样式是可以自己选的，以Typora为例，这个样式在Typora叫“主题”，你可以选择自己喜欢的样式：</p>
+<p><img src="https://myblldy.oss-cn-beijing.aliyuncs.com/img/image-20230331220658571.png" alt="Typora主题"></p>
+<p>我以我自己用的为例，平时写作时，我喜欢用类似drake-dark的主题，深色护眼：</p>
+<p><img src="https://myblldy.oss-cn-beijing.aliyuncs.com/img/thumbnail-dark.png" alt="Drake-dark主题"></p>
+<p>但在导出发给别人时，我会选择稍微漂亮点的，比如我最近的新宠Orange Heart主题：</p>
+<p><img src="https://myblldy.oss-cn-beijing.aliyuncs.com/img/english-1680609866764-2.png" alt="Orange Heart主题"></p>
+<p>具体Typora换主题教程：</p>
+<ol>
+<li><p>上面说的主题官网：<a href="https://theme.typora.io/">Themes Gallery — Typora</a>（可能需要科学上网，网上也有其他人分享）</p>
+</li>
+<li><p><a href="https://blog.csdn.net/weixin_44996090/article/details/104505277">Typora更换主题详细步骤_泰勒Peano的博客-CSDN博客</a></p>
+</li>
+<li><p>官方自己给的换主题教程：<a href="https://support.typoraio.cn/About-Themes/">About Themes - Typora Support (typoraio.cn)</a></p>
+</li>
+</ol>
+<hr>
+<p>这篇教程到这里就结束啦，如果你有相关问题，可以评论留言，我会把它们补充到文中。</p>
+]]></content>
+      <tags>
+        <tag>写作实践</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>组会报告</title>
+    <url>/posts/f2473c7c.html</url>
+    <content><![CDATA[<p>五一假期到现在主要做三件事: 忙课程作业和党务工作，然后继续看有关ChatGPT的文章。</p>
+<h2 id="课程-amp-党务工作"><a href="#课程-amp-党务工作" class="headerlink" title="课程&amp;党务工作"></a>课程&amp;党务工作</h2><p>课程作业最近时间占比大，五月和六月估计还要占较多时间，数个pre正在走来，还在纠结选题和一些选题怎么实施。</p>
+<p>党务工作方面，研究生党支部重组，国际语言服务专业和翻译学重新组成了新支部，以后都会是这个支部代代继承下去了。由于是新组的，一切都是从头开始，很多东西都得靠自己摸索，并且事情也比较多，最近几乎每天一个至多个新通知，消耗的时间也蛮多的。准备等慢慢把各个流程标准化后在简言开个工作笔记帖子留给后来的新生，免得他们再手忙脚乱一次。</p>
+<h2 id="ChatGPT与其他"><a href="#ChatGPT与其他" class="headerlink" title="ChatGPT与其他"></a>ChatGPT与其他</h2><h3 id="设置图床，解决用-Markdown-发简言要重新上传图片的问题"><a href="#设置图床，解决用-Markdown-发简言要重新上传图片的问题" class="headerlink" title="设置图床，解决用 Markdown 发简言要重新上传图片的问题"></a>设置图床，解决用 Markdown 发简言要重新上传图片的问题</h3><p>用阿里云图床对象存储OSS+PicGO+Typora建了自己的图床，现在只要把图片拖进Typora图片就会自动上传并生成链接，以后往简言发文不用再一张一张重新传照片了。</p>
+<h3 id="看ChatGPT文章的产生的感慨与反思"><a href="#看ChatGPT文章的产生的感慨与反思" class="headerlink" title="看ChatGPT文章的产生的感慨与反思"></a>看ChatGPT文章的产生的感慨与反思</h3><h4 id="感慨"><a href="#感慨" class="headerlink" title="感慨"></a>感慨</h4><p>最近的一些细节开始印证前段时间企业们的确是在争分夺秒研究ChatGPT。</p>
+<p>我发现我的Grammarly昨天突然多了一个加号，出现AI辅助写作功能；韩老师发的那个字幕翻译也是，这个海报最开始我是在熊猫译社转发那看到的，这是在翻译方面我看到的第一个ChatGPT落实，紧接着下午的时候，之前签的创思立信来了一个字幕项目，它们的平台我还没正式用过，但看起来似乎还没啥加了ChatGPT的痕迹，我跟PM说很遗憾五月没时间期望六月能合作，但回想到上午看到的海报，我心底其实是对这句话打了个问号的，真到了六月，这需求还会在吗？会不会因为ChatGPT产品直接从人工翻译改MTPE了？如果那样本来就低的价格会不会更低？</p>
+<p>还有自动做PPT的专门产品也有了:<a href="https://motion.yoo-ai.com/mobilehome%EF%BC%8C%E6%88%91%E7%94%B3%E8%AF%B7%E4%BA%86%E4%BD%93%E9%AA%8C%EF%BC%8C%E6%98%A8%E5%A4%A9%E5%AE%A1%E6%A0%B8%E5%88%9A%E9%80%9A%E8%BF%87%EF%BC%8C%E8%BF%98%E6%B2%A1%E8%AF%95%E3%80%82%E6%80%BB%E4%B9%8B%EF%BC%8C%E6%9C%80%E8%BF%91%E7%94%9F%E6%B4%BB%E4%B8%AD%E7%94%A8%E5%88%B0%E7%9A%84%E5%BE%88%E5%A4%9A%E4%BA%A7%E5%93%81%E4%B8%80%E4%B8%8B%E5%AD%90%E9%83%BD%E6%AD%A6%E8%A3%85%E4%B8%8A%E4%BA%86AI%EF%BC%8C%E8%80%8C%E4%B8%94%E8%BF%99%E5%8A%BF%E5%A4%B4%E8%83%BD%E7%9C%8B%E5%87%BA%E8%BF%99%E8%BF%98%E5%8F%AA%E6%98%AF%E5%BC%80%E5%A7%8B%E3%80%82">https://motion.yoo-ai.com/mobilehome，我申请了体验，昨天审核刚通过，还没试。总之，最近生活中用到的很多产品一下子都武装上了AI，而且这势头能看出这还只是开始。</a></p>
+<p>这一刻再回想起几周以前我们围着长桌讨论企业怎么用ChatGPT的场景，很是感慨，真的太快。</p>
+<h4 id="反思"><a href="#反思" class="headerlink" title="反思"></a>反思</h4><p>最近我出现一个问题，各种看别人把ChatGPT跟各种方面结合在一起的例子，看一个想学一个，链接收藏了一大堆，手头正在尝试的反而停滞不前。之所以这样是出于俩原因，一是因为觉得自己手头试的虽然符合自己的实际需求，但是并没有普遍性，价值不大，所以总被别人的看起来价值大的吸引目光。二是其他人的例子要学是并不容易的，现在我看其他人的例子好像做得很容易，实际上这都是有他们之前在特定领域的积累在的，因此能很快起手。而我并没有那个基础，如果我想去一个新的方面学他们，再应用ChatGPT之前，先多出了一个新领域知识的学习成本，所以做不到像别人一样。</p>
+<p>因此我理清思路，明确了还是要回到我自己最熟悉最有根基的领域去找切入点。这样可能不够有新意，也不够价值大，但却会是我最可能做到深入有产出的地方，这样切入产出的东西可能不够我抓住这次机遇，但却可以成为一次有深度的积累，在下一次机遇时让我拥有像别人一样厚积薄发的可能。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hexo 博客涉及到的几种文件</title>
+    <url>/posts/9f332de4.html</url>
+    <content><![CDATA[<h2 id="YAML-文件"><a href="#YAML-文件" class="headerlink" title="YAML 文件"></a>YAML 文件</h2><h3 id="是什么"><a href="#是什么" class="headerlink" title="是什么"></a>是什么</h3><p>我们修改最多的主题配置文件<code>_config.butterfly.yml</code> 叫<code>YAML</code>文件，这种YAML文件的扩展名可以是<code>.yaml</code>或者<code>.yml</code>，很显然我们的主题文件是后者。</p>
+<p>YAML其实是个缩写，它的全称一开始是：Yet Another Markup Language，后来被改为***YAML Ain’t Markup Language***。</p>
+<p>yet 没发生，但以后可能会发生 创造的目的是它有可能会成为另一种形式的标记语言，一种更简单的标记语言</p>
+<p>创造者跟</p>
+<p>ain’t 很明确地说“不是” YAML不是标记语言</p>
+<p>不是类似Python之类的编程语言，而是类似Json和XML的</p>
+<p>YAML在2001年刚问世的时候，全称是Yet Another Markup Language， 但是一年后，它的创造者把它改名为***YAML Ain’t Markup Language***，意思是YAML这种语言结构看起来像标记语言，但</p>
+<p>OK，简单了解是什么即可，更多的就不展开了，因为我们了解的目的是为了更好地修改Hexo博客，够用即可，从这个角度来说，更重要的下面的语法部分，因为了解每种文件的语法注意点，才能减少报错，从而顺利修改。</p>
+<h3 id="语法注意点"><a href="#语法注意点" class="headerlink" title="语法注意点"></a>语法注意点</h3><p>了解这些文件只是为了能更好的修改博客</p>
+<ul>
+<li>冒号后必须有空格</li>
+<li>注释符号： #，只支持单行注释</li>
+<li>大小写敏感</li>
+<li>缩进只能用空格，不用 Tab</li>
+<li>字符串可不用双引号</li>
+</ul>
+<p>来源：<a href="https://zhuanlan.zhihu.com/p/433176170?utm_id=0">两分钟带你了解YAML（.yml后缀文件） - 知乎 (zhihu.com)</a></p>
+<h2 id="STYL-文件"><a href="#STYL-文件" class="headerlink" title="STYL  文件"></a>STYL  文件</h2><h2 id="PUG-文件"><a href="#PUG-文件" class="headerlink" title="PUG 文件"></a>PUG 文件</h2><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="https://blog.wemakedevs.org/what-aint-a-markup-language-yaml">https://blog.wemakedevs.org/what-aint-a-markup-language-yaml</a></p>
+<p>序列化：<a href="https://zhuanlan.zhihu.com/p/40462507">https://zhuanlan.zhihu.com/p/40462507</a></p>
+<p><strong>加粗</strong></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+        <category>建站笔记</category>
+      </categories>
   </entry>
 </search>

@@ -1,649 +1,241 @@
-<!DOCTYPE html>
-<html lang="cn">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="keywords" content="Hexo Theme Redefine">
-    <meta name="description" content="翻译 技术写作 Python 编程">
-    <meta name="author" content="我是阿萨">
-    
-    <title>
-        
-        让语言与技术交融
-    </title>
-    
-<link rel="stylesheet" href="/css/style.css">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,viewport-fit=cover"><title>TechLang - 我是大叶，让语言与技术交融。</title><meta name="author" content="罗大叶"><meta name="copyright" content="罗大叶"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="一个关注翻译、编程与技术写作的个人博客。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="TechLang">
+<meta property="og:url" content="https://techlanglily.github.io/index.html">
+<meta property="og:site_name" content="TechLang">
+<meta property="og:description" content="一个关注翻译、编程与技术写作的个人博客。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://myblldy.oss-cn-beijing.aliyuncs.com/img/faviconred.png">
+<meta property="article:author" content="罗大叶">
+<meta property="article:tag" content="翻译 技术写作 python">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://myblldy.oss-cn-beijing.aliyuncs.com/img/faviconred.png"><link rel="shortcut icon" href="https://myblldy.oss-cn-beijing.aliyuncs.com/img/faviconred.png"><link rel="canonical" href="https://techlanglily.github.io/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":50,"languages":{"author":"作者: 罗大叶","link":"链接: ","source":"来源: TechLang","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  }
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'TechLang',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2023-05-13 15:02:23'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
 
-    <link rel="shortcut icon" href="/images/logo.svg">
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
     
-<link rel="stylesheet" href="/css/fontawesome.min.css">
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><script>window.paceOptions = {
+  restartOnPushState: false
+}
 
-    
-<link rel="stylesheet" href="/css/fontawesome.min.css">
+document.addEventListener('pjax:send', () => {
+  Pace.restart()
+})
+</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js/themes/blue/pace-theme-minimal.min.css"/><script src="https://cdn.jsdelivr.net/npm/pace-js/pace.min.js"></script><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/loading.gif" data-original="https://myblldy.oss-cn-beijing.aliyuncs.com/img/faviconred.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">29</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">8</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">12</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-address-card"></i><span> 关于我</span></a></div><div class="menus_item"><a class="site-page" href="/portfolio/"><i class="fa-fw fas fa-star"></i><span> 作品展示</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-graduation-cap"></i><span> 博文</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page fixed" id="page-header" style="background-image: url('/img/flower.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="TechLang"><span class="site-name">TechLang</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-address-card"></i><span> 关于我</span></a></div><div class="menus_item"><a class="site-page" href="/portfolio/"><i class="fa-fw fas fa-star"></i><span> 作品展示</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-graduation-cap"></i><span> 博文</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">TechLang</h1><div id="site-subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://mp.weixin.qq.com/s/Yc7zX9NJcKLGFy0oZFhL7A" target="_blank" title="微信公众号"><i class="fas fa-comments"></i></a><a class="social-icon" href="https://www.zhihu.com/people/yu-ke-87-33/following" target="_blank" title="知乎"><i class="fab fa-quora"></i></a><a class="social-icon" href="https://github.com/xxxxx" target="_blank" title="Github"><i class="fab fa-github"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left"><a href="/posts/9f332de4.html" title="Hexo 博客涉及到的几种文件"><img class="post-bg" src="/img/loading.gif" data-original="https://myblldy.oss-cn-beijing.aliyuncs.com/img/redcover.png" onerror="this.onerror=null;this.src='https://myblldy.oss-cn-beijing.aliyuncs.com/img/404loading.png'" alt="Hexo 博客涉及到的几种文件"></a></div><div class="recent-post-info"><a class="article-title" href="/posts/9f332de4.html" title="Hexo 博客涉及到的几种文件">Hexo 博客涉及到的几种文件</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-05-12T08:23:41.000Z" title="发表于 2023-05-12 16:23:41">2023-05-12</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/%E6%8A%80%E6%9C%AF/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/">建站笔记</a></span></div><div class="content">YAML 文件是什么我们修改最多的主题配置文件_config.butterfly.yml 叫YAML文件，这种YAML文件的扩展名可以是.yaml或者.yml，很显然我们的主题文件是后者。
+YAML其实是个缩写，它的全称一开始是：Yet Another Markup Language，后来被改为***YAML Ain’t Markup Language***。
+yet 没发生，但以后可能会发生 创造的目的是它有可能会成为另一种形式的标记语言，一种更简单的标记语言
+创造者跟
+ain’t 很明确地说“不是” YAML不是标记语言
+不是类似Python之类的编程语言，而是类似Json和XML的
+YAML在2001年刚问世的时候，全称是Yet Another Markup Language， 但是一年后，它的创造者把它改名为***YAML Ain’t Markup Language***，意思是YAML这种语言结构看起来像标记语言，但
+OK，简单了解是什么即可，更多的就不展开了，因为我们了解的目的是为了更好地修改Hexo博客，够用即可，从这个角度来说，更重要的下面的语法部分，因为了解每种文件的 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/posts/f2473c7c.html" title="组会报告"><img class="post-bg" src="/img/loading.gif" data-original="https://myblldy.oss-cn-beijing.aliyuncs.com/img/yellowcover.png" onerror="this.onerror=null;this.src='https://myblldy.oss-cn-beijing.aliyuncs.com/img/404loading.png'" alt="组会报告"></a></div><div class="recent-post-info"><a class="article-title" href="/posts/f2473c7c.html" title="组会报告">组会报告</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-05-10T15:51:48.000Z" title="发表于 2023-05-10 23:51:48">2023-05-10</time></span></div><div class="content">五一假期到现在主要做三件事: 忙课程作业和党务工作，然后继续看有关ChatGPT的文章。
+课程&amp;党务工作课程作业最近时间占比大，五月和六月估计还要占较多时间，数个pre正在走来，还在纠结选题和一些选题怎么实施。
+党务工作方面，研究生党支部重组，国际语言服务专业和翻译学重新组成了新支部，以后都会是这个支部代代继承下去了。由于是新组的，一切都是从头开始，很多东西都得靠自己摸索，并且事情也比较多，最近几乎每天一个至多个新通知，消耗的时间也蛮多的。准备等慢慢把各个流程标准化后在简言开个工作笔记帖子留给后来的新生，免得他们再手忙脚乱一次。
+ChatGPT与其他设置图床，解决用 Markdown 发简言要重新上传图片的问题用阿里云图床对象存储OSS+PicGO+Typora建了自己的图床，现在只要把图片拖进Typora图片就会自动上传并生成链接，以后往简言发文不用再一张一张重新传照片了。
+看ChatGPT文章的产生的感慨与反思感慨最近的一些细节开始印证前段时间企业们的确是在争分夺秒研究ChatGPT。
+我发现我的Grammarly昨天突然多了一个加号，出现AI辅助写作功能；韩老师发的那个字 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/posts/undefined.html" title="portfolio"><img class="post-bg" src="/img/loading.gif" data-original="https://s1.ax1x.com/2023/05/05/p9UVPW8.png" onerror="this.onerror=null;this.src='https://myblldy.oss-cn-beijing.aliyuncs.com/img/404loading.png'" alt="portfolio"></a></div><div class="recent-post-info"><a class="article-title" href="/posts/undefined.html" title="portfolio">portfolio</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-05-06T06:59:53.000Z" title="发表于 2023-05-06 14:59:53">2023-05-06</time></span></div><div class="content"></div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/posts/1f3cf827.html" title="Markdown常用样式测试"><img class="post-bg" src="/img/loading.gif" data-original="https://s1.ax1x.com/2023/05/05/p9UVCJf.png" onerror="this.onerror=null;this.src='https://myblldy.oss-cn-beijing.aliyuncs.com/img/404loading.png'" alt="Markdown常用样式测试"></a></div><div class="recent-post-info"><a class="article-title" href="/posts/1f3cf827.html" title="Markdown常用样式测试">Markdown常用样式测试</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-04-28T05:52:36.000Z" title="发表于 2023-04-28 13:52:36">2023-04-28</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%BF%BB%E8%AF%91%E6%9D%82%E8%B0%88/">翻译杂谈</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%8B%B1%E8%AF%AD/">英语</a></span></div><div class="content">可表示1-6级标题斜体 : 斜体粗体 : 粗体粗体加斜体 : 粗体加斜体
+🐫 😊 😄 : :smil\e:(去掉斜线)分割线(下面这条) : —
+上角标 : ^上角标^下角标 : 下角标删除线 : 删除线下划线 : 下划线
+无序列表 : - 无序列表有序列表 : 1. 有序列表 代办列表 : - [ ]代办列表 已完成 : - [x]已完成区块 : &gt; 区块
+可以嵌套 : &gt;&gt; 可以嵌套
+代码 : 代码
+代码段 : 代码段 1链接 : 链接
+图片 : , 注意某些网址不适用, 比如csdn
+其他html元素Ctrl : Ctrl\ : 转义
+f ( x ) &#x3D; a − b f(x)&#x3D;a-bf(x)&#x3D;a−b : $f(x)&#x3D;a-b$
+$$f(x)&#x3D;a+b$$(删掉斜杠) 如下f ( x ) &#x3D; a + b f(x)&#x3D;a+bf(x)&#x3D;a+b
+高级公式和矩阵用到了自己去搜还支持各种流程图————————————————版权声明：本文为CSDN博主「不住在隔壁的老王」的原创文章，遵循CC 4 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/posts/4d1df81a.html" title="建站笔记"><img class="post-bg" src="/img/loading.gif" data-original="https://s1.ax1x.com/2023/05/05/p9UVPW8.png" onerror="this.onerror=null;this.src='https://myblldy.oss-cn-beijing.aliyuncs.com/img/404loading.png'" alt="建站笔记"></a></div><div class="recent-post-info"><a class="article-title" href="/posts/4d1df81a.html" title="建站笔记">建站笔记</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-04-28T05:19:40.000Z" title="发表于 2023-04-28 13:19:40">2023-04-28</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91/">网站开发</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E6%B5%8B%E8%AF%95%E6%A0%87%E7%AD%BE/">测试标签</a></span></div><div class="content">网站建站笔记美化
+light mode 色彩方案
+night mode 色彩方案
+read mode 色彩方案
 
-    
-<link rel="stylesheet" href="/css/regular.min.css">
+待处理的问题
+字体太细
+链接颜色
+文章封面加载太慢——换成card不加封面
+标签处的五颜六色没了
+调整侧边栏卡片位置
+测试一下markdown样式
 
-    
-<link rel="stylesheet" href="/css/v5-font-face.min.css">
+配色工具
+pixaby 可以按自己想的颜色搭配找图
 
-    
-<link rel="stylesheet" href="/css/duotone.min.css">
-
-    
-<link rel="stylesheet" href="/css/brands.min.css">
-
-    
-<link rel="stylesheet" href="/css/solid.min.css">
-
-    
-<link rel="stylesheet" href="/css/brands.min.css">
-
-    
-<link rel="stylesheet" href="/css/css2.css">
-
-    <link rel="stylesheet" href="//evan.beee.top/css/waline.css"/>
-    <script src="//evan.beee.top/js/waline.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <script id="hexo-configurations">
-    let REDEFINE = window.REDEFINE || {};
-    REDEFINE.hexo_config = {"hostname":"techlanglily.github.io","root":"/","language":"cn","path":"search.xml"};
-    REDEFINE.theme_config = {"toc":{"enable":true,"number":false,"expand_all":true,"init_open":true},"style":{"primary_color":"#005080","avatar":"/images/avatar.svg","favicon":"/images/logo.svg","article_img_align":"center","left_side_width":"240px","content_max_width":"960px","nav_color":{"left":"#f78736","right":"#367df7","transparency":35},"hover":{"shadow":true,"scale":false},"first_screen":{"enable":true,"background_image":{"light":"/images/wallhaven-bg-light.webp","dark":"/images/starsky.jpg"},"title_color":{"light":"#fff","dark":"#fff"},"description":"我是阿萨 让语言与技术交融"},"scroll":{"progress_bar":{"enable":true},"percent":{"enable":false}}},"local_search":{"enable":true,"preload":true},"code_copy":{"enable":true},"pjax":{"enable":true},"lazyload":{"enable":true},"version":"0.3.4"};
-    REDEFINE.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"};
-  </script>
-<meta name="generator" content="Hexo 6.3.0"></head>
-
-
-<body>
-<div class="progress-bar-container">
-    
-        <span class="scroll-progress-bar"></span>
-    
-
-    
-        <span class="pjax-progress-bar"></span>
-        <span class="pjax-progress-icon">
-            <i class="fas fa-circle-notch fa-spin"></i>
-        </span>
-    
-</div>
-
-
-<main class="page-container">
-
-    
-        <div class="first-screen-container flex-center fade-in-down-animation">
-    <div class="content flex-center">
-        <div class="description">
-          我是阿萨 让语言与技术交融
-        </div>
-        
-            <div class="s-icon-list">
-                
-                    
-                        
-                            <span class="s-icon-item github">
-                                <a target="_blank" href="https://github.com/TechLangLily || envelop">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </span>
-                        
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        
-                            <span class="s-icon-item email">
-                                <a href="mailto:techlang@163.com">
-                                    <i class="fas fa-envelope"></i>
-                                </a>
-                            </span>
-                        
-                    
-                
+</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/posts/8ec3ee55.html" title="test777"><img class="post-bg" src="/img/loading.gif" data-original="https://s1.ax1x.com/2023/05/05/p9UVCJf.png" onerror="this.onerror=null;this.src='https://myblldy.oss-cn-beijing.aliyuncs.com/img/404loading.png'" alt="test777"></a></div><div class="recent-post-info"><a class="article-title" href="/posts/8ec3ee55.html" title="test777">test777</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-04-27T01:31:41.000Z" title="发表于 2023-04-27 09:31:41">2023-04-27</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%8B%A5%E6%8A%B1%E6%8A%80%E6%9C%AF/">拥抱技术</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/%E6%8B%A5%E6%8A%B1%E6%8A%80%E6%9C%AF/%E4%BA%91%E8%AE%A1%E7%AE%97/">云计算</a></span></div><div class="content"></div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/posts/e11d85b5.html" title="test666"><img class="post-bg" src="/img/loading.gif" data-original="https://s1.ax1x.com/2023/05/05/p9UVPW8.png" onerror="this.onerror=null;this.src='https://myblldy.oss-cn-beijing.aliyuncs.com/img/404loading.png'" alt="test666"></a></div><div class="recent-post-info"><a class="article-title" href="/posts/e11d85b5.html" title="test666">test666</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-04-27T01:31:30.000Z" title="发表于 2023-04-27 09:31:30">2023-04-27</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E6%83%B3/">生活随想</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E7%94%9F%E6%B4%BB/">生活</a></span></div><div class="content"></div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/posts/4b5ffd77.html" title="teat555"><img class="post-bg" src="/img/loading.gif" data-original="https://s1.ax1x.com/2023/05/05/p9UVCJf.png" onerror="this.onerror=null;this.src='https://myblldy.oss-cn-beijing.aliyuncs.com/img/404loading.png'" alt="teat555"></a></div><div class="recent-post-info"><a class="article-title" href="/posts/4b5ffd77.html" title="teat555">teat555</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-04-27T01:24:46.000Z" title="发表于 2023-04-27 09:24:46">2023-04-27</time></span></div><div class="content"></div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/posts/eacb4794.html" title="test333"><img class="post-bg" src="/img/loading.gif" data-original="https://s1.ax1x.com/2023/05/05/p9UVPW8.png" onerror="this.onerror=null;this.src='https://myblldy.oss-cn-beijing.aliyuncs.com/img/404loading.png'" alt="test333"></a></div><div class="recent-post-info"><a class="article-title" href="/posts/eacb4794.html" title="test333">test333</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-04-27T01:24:22.000Z" title="发表于 2023-04-27 09:24:22">2023-04-27</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%BF%BB%E8%AF%91%E6%9D%82%E8%B0%88/">翻译杂谈</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/%E7%BF%BB%E8%AF%91%E6%9D%82%E8%B0%88/%E8%87%AA%E7%94%B1%E8%AF%91%E8%80%85/">自由译者</a></span></div><div class="content"></div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/posts/85152c74.html" title="test222"><img class="post-bg" src="/img/loading.gif" data-original="https://s1.ax1x.com/2023/05/05/p9UVCJf.png" onerror="this.onerror=null;this.src='https://myblldy.oss-cn-beijing.aliyuncs.com/img/404loading.png'" alt="test222"></a></div><div class="recent-post-info"><a class="article-title" href="/posts/85152c74.html" title="test222">test222</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-04-27T01:24:08.000Z" title="发表于 2023-04-27 09:24:08">2023-04-27</time></span></div><div class="content"></div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/#content-inner">2</a><a class="page-number" href="/page/3/#content-inner">3</a><a class="extend next" rel="next" href="/page/2/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/loading.gif" data-original="https://myblldy.oss-cn-beijing.aliyuncs.com/img/faviconred.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">罗大叶</div><div class="author-info__description">一个关注翻译、编程与技术写作的个人博客。</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">29</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">8</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">12</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/Yc7zX9NJcKLGFy0oZFhL7A"><i class="fas fa-comments"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://mp.weixin.qq.com/s/Yc7zX9NJcKLGFy0oZFhL7A" target="_blank" title="微信公众号"><i class="fas fa-comments"></i></a><a class="social-icon" href="https://www.zhihu.com/people/yu-ke-87-33/following" target="_blank" title="知乎"><i class="fab fa-quora"></i></a><a class="social-icon" href="https://github.com/xxxxx" target="_blank" title="Github"><i class="fab fa-github"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">微信公众号：TechLang<br>知乎：罗大叶<br>公众号存放精选文章<br>知乎偶尔答题<br>博客归档所有文章<br>欢迎关注。</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/posts/9f332de4.html" title="Hexo 博客涉及到的几种文件"><img src="/img/loading.gif" data-original="https://myblldy.oss-cn-beijing.aliyuncs.com/img/redcover.png" onerror="this.onerror=null;this.src='https://myblldy.oss-cn-beijing.aliyuncs.com/img/404loading.png'" alt="Hexo 博客涉及到的几种文件"/></a><div class="content"><a class="title" href="/posts/9f332de4.html" title="Hexo 博客涉及到的几种文件">Hexo 博客涉及到的几种文件</a><time datetime="2023-05-12T08:23:41.000Z" title="发表于 2023-05-12 16:23:41">2023-05-12</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/f2473c7c.html" title="组会报告"><img src="/img/loading.gif" data-original="https://myblldy.oss-cn-beijing.aliyuncs.com/img/yellowcover.png" onerror="this.onerror=null;this.src='https://myblldy.oss-cn-beijing.aliyuncs.com/img/404loading.png'" alt="组会报告"/></a><div class="content"><a class="title" href="/posts/f2473c7c.html" title="组会报告">组会报告</a><time datetime="2023-05-10T15:51:48.000Z" title="发表于 2023-05-10 23:51:48">2023-05-10</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/undefined.html" title="portfolio"><img src="/img/loading.gif" data-original="https://s1.ax1x.com/2023/05/05/p9UVPW8.png" onerror="this.onerror=null;this.src='https://myblldy.oss-cn-beijing.aliyuncs.com/img/404loading.png'" alt="portfolio"/></a><div class="content"><a class="title" href="/posts/undefined.html" title="portfolio">portfolio</a><time datetime="2023-05-06T06:59:53.000Z" title="发表于 2023-05-06 14:59:53">2023-05-06</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/1f3cf827.html" title="Markdown常用样式测试"><img src="/img/loading.gif" data-original="https://s1.ax1x.com/2023/05/05/p9UVCJf.png" onerror="this.onerror=null;this.src='https://myblldy.oss-cn-beijing.aliyuncs.com/img/404loading.png'" alt="Markdown常用样式测试"/></a><div class="content"><a class="title" href="/posts/1f3cf827.html" title="Markdown常用样式测试">Markdown常用样式测试</a><time datetime="2023-04-28T05:52:36.000Z" title="发表于 2023-04-28 13:52:36">2023-04-28</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/4d1df81a.html" title="建站笔记"><img src="/img/loading.gif" data-original="https://s1.ax1x.com/2023/05/05/p9UVPW8.png" onerror="this.onerror=null;this.src='https://myblldy.oss-cn-beijing.aliyuncs.com/img/404loading.png'" alt="建站笔记"/></a><div class="content"><a class="title" href="/posts/4d1df81a.html" title="建站笔记">建站笔记</a><time datetime="2023-04-28T05:19:40.000Z" title="发表于 2023-04-28 13:19:40">2023-04-28</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            <a class="card-more-btn" href="/categories/" title="查看更多">
+    <i class="fas fa-angle-right"></i></a>
             </div>
-        
-    </div>
-</div>
-
-    
-
-    <div class="page-main-content">
-
-        <div class="page-main-content-top">
-            <header class="header-wrapper">
-    
-    <div class="header-content has-first-screen">
-        <div class="left">
-            
-            <a class="logo-title" href="/">
-                让语言与技术交融
-            </a>
-        </div>
-
-        <div class="right">
-            <div class="pc">
-                <ul class="menu-list">
-                    
-                        <li class="menu-item">
-                            <a class=""
-                               href="/TechnicalWriting"
-                            >
-                                技术写作
-                            </a>
-                        </li>
-                    
-                        <li class="menu-item">
-                            <a class=""
-                               href="/Translation"
-                            >
-                                翻译杂谈
-                            </a>
-                        </li>
-                    
-                        <li class="menu-item">
-                            <a class=""
-                               href="/programming"
-                            >
-                                拥抱技术
-                            </a>
-                        </li>
-                    
-                        <li class="menu-item">
-                            <a class=""
-                               href="/about"
-                            >
-                                关于我
-                            </a>
-                        </li>
-                    
-                        <li class="menu-item">
-                            <a class="active"
-                               href="/"
-                            >
-                                首页
-                            </a>
-                        </li>
-                    
-                        <li class="menu-item">
-                            <a class=""
-                               href="/archives"
-                            >
-                                归档
-                            </a>
-                        </li>
-                    
-                    
-                        <li class="menu-item search search-popup-trigger">
-                            <i class="fas fa-search"></i>
-                        </li>
-                    
-                </ul>
-            </div>
-            <div class="mobile">
-                
-                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
-                
-                <div class="icon-item menu-bar">
-                    <div class="menu-bar-middle"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="header-drawer">
-        <ul class="drawer-menu-list">
-            
-                <li class="drawer-menu-item flex-center">
-                    <a class=""
-                       href="/TechnicalWriting">技术写作</a>
-                </li>
-            
-                <li class="drawer-menu-item flex-center">
-                    <a class=""
-                       href="/Translation">翻译杂谈</a>
-                </li>
-            
-                <li class="drawer-menu-item flex-center">
-                    <a class=""
-                       href="/programming">拥抱技术</a>
-                </li>
-            
-                <li class="drawer-menu-item flex-center">
-                    <a class=""
-                       href="/about">关于我</a>
-                </li>
-            
-                <li class="drawer-menu-item flex-center">
-                    <a class="active"
-                       href="/">首页</a>
-                </li>
-            
-                <li class="drawer-menu-item flex-center">
-                    <a class=""
-                       href="/archives">归档</a>
-                </li>
-            
-        </ul>
-    </div>
-
-    <div class="window-mask"></div>
-
-</header>
-
-
-        </div>
-
-        <div class="page-main-content-middle">
-
-            <div class="main-content">
-
-                
-                    <div class="home-content-container fade-in-down-animation">
-    <ul class="home-article-list">
-        
-            <li class="home-article-item">
-
-                
-
-                <h3 class="home-article-title">
-                    <a href="/posts/661cd695.html">
-                        测试永久链接
-                    </a>
-                </h3>
-
-                <div class="home-article-content markdown-body">
-                    
-                        
-                    
-                </div>
-
-                <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fas fa-history"></i>&nbsp;<span class="home-article-date" data-date="Tue Dec 06 2022 17:59:05 GMT+0800">2022-12-06</span></span>
-        
-        
-    </div>
-
-    <a href="/posts/661cd695.html">Read more&nbsp;<i class="fas fa-angle-right"></i></a>
-</div>
-
-            </li>
-        
-            <li class="home-article-item">
-
-                
-
-                <h3 class="home-article-title">
-                    <a href="/posts/685ba66f.html">
-                        谷歌2
-                    </a>
-                </h3>
-
-                <div class="home-article-content markdown-body">
-                    
-                        
-                    
-                </div>
-
-                <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fas fa-history"></i>&nbsp;<span class="home-article-date" data-date="Tue Dec 06 2022 17:16:33 GMT+0800">2022-12-06</span></span>
-        
-        
-    </div>
-
-    <a href="/posts/685ba66f.html">Read more&nbsp;<i class="fas fa-angle-right"></i></a>
-</div>
-
-            </li>
-        
-            <li class="home-article-item">
-
-                
-
-                <h3 class="home-article-title">
-                    <a href="/posts/f152f7d5.html">
-                        谷歌1
-                    </a>
-                </h3>
-
-                <div class="home-article-content markdown-body">
-                    
-                        
-                    
-                </div>
-
-                <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fas fa-history"></i>&nbsp;<span class="home-article-date" data-date="Tue Dec 06 2022 17:16:15 GMT+0800">2022-12-06</span></span>
-        
-        
-    </div>
-
-    <a href="/posts/f152f7d5.html">Read more&nbsp;<i class="fas fa-angle-right"></i></a>
-</div>
-
-            </li>
-        
-            <li class="home-article-item">
-
-                
-
-                <h3 class="home-article-title">
-                    <a href="/posts/1.html">
-                        francais
-                    </a>
-                </h3>
-
-                <div class="home-article-content markdown-body">
-                    
-                        名词形容词的阴阳性单复数1. 口诀经理跳舞只为卖面包从犹太人手里套消息
-美国意大利等九个昂贵国组成了幸福的大家庭
-帅小子爱了eu au eau，eau 爱了小说
-2. 知识点directeur directrice
-danseur danseuse
-...
-                    
-                </div>
-
-                <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fas fa-history"></i>&nbsp;<span class="home-article-date" data-date="Sat Dec 03 2022 15:18:00 GMT+0800">2022-12-03</span></span>
-        
-        
-            <span class="home-article-tag">
-                <i class="fas fa-tags"></i>&nbsp;
-                <ul>
-                    
-                        <li>
-                            
-                            <a href="/tags/%E6%B3%95%E8%AF%AD%E5%AD%A6%E4%B9%A0/">法语学习</a>&nbsp;
-                        </li>
-                    
-                </ul>
-            </span>
-        
-    </div>
-
-    <a href="/posts/1.html">Read more&nbsp;<i class="fas fa-angle-right"></i></a>
-</div>
-
-            </li>
-        
-            <li class="home-article-item">
-
-                
-
-                <h3 class="home-article-title">
-                    <a href="/posts/af75ce5e.html">
-                        french
-                    </a>
-                </h3>
-
-                <div class="home-article-content markdown-body">
-                    
-                        
-                    
-                </div>
-
-                <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fas fa-history"></i>&nbsp;<span class="home-article-date" data-date="Sat Dec 03 2022 15:16:25 GMT+0800">2022-12-03</span></span>
-        
-        
-    </div>
-
-    <a href="/posts/af75ce5e.html">Read more&nbsp;<i class="fas fa-angle-right"></i></a>
-</div>
-
-            </li>
-        
-            <li class="home-article-item">
-
-                
-
-                <h3 class="home-article-title">
-                    <a href="/posts/4a17b156.html">
-                        Hello World
-                    </a>
-                </h3>
-
-                <div class="home-article-content markdown-body">
-                    
-                        Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, yo...
-                    
-                </div>
-
-                <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fas fa-history"></i>&nbsp;<span class="home-article-date" data-date="Wed Nov 30 2022 14:37:57 GMT+0800">2022-11-30</span></span>
-        
-        
-    </div>
-
-    <a href="/posts/4a17b156.html">Read more&nbsp;<i class="fas fa-angle-right"></i></a>
-</div>
-
-            </li>
-        
-    </ul>
-
-    <div class="home-paginator">
-        <div class="paginator">
-    
-
-    
-</div>
-
-    </div>
-</div>
-
-
-                
-            </div>
-
-        </div>
-
-        <div class="page-main-content-bottom">
-            <footer class="footer">
-    <div class="info-container">
-        <div class="copyright-info info-item">
-            &copy;
-            
-              <span>2020</span>
-              -
-            
-            2022&nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;<a href="/">我是阿萨</a>
-        </div>
-        
-            <script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-            <div class="website-count info-item">
-                
-                    <span id="busuanzi_container_site_uv">
-                        Visitor Count&nbsp;<span id="busuanzi_value_site_uv"></span>&ensp;
-                    </span>
-                
-                
-                    <span id="busuanzi_container_site_pv">
-                        Totalview&nbsp;<span id="busuanzi_value_site_pv"></span>
-                    </span>
-                
-            </div>
-        
-        <div class="theme-info info-item">
-            Powered by <a target="_blank" href="https://hexo.io">Hexo</a>&nbsp;|&nbsp;Theme&nbsp;<a class="theme-version" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v0.3.4</a>
-        </div>
-        
-        
-    </div>
-</footer>
-        </div>
-    </div>
-
-    
-
-    <div class="right-bottom-side-tools">
-        <div class="side-tools-container">
-    <ul class="side-tools-list">
-        <li class="tools-item tool-font-adjust-plus flex-center">
-            <i class="fas fa-search-plus"></i>
-        </li>
-
-        <li class="tools-item tool-font-adjust-minus flex-center">
-            <i class="fas fa-search-minus"></i>
-        </li>
-
-        <li class="tools-item tool-expand-width flex-center">
-            <i class="fas fa-arrows-alt-h"></i>
-        </li>
-
-        <li class="tools-item tool-dark-light-toggle flex-center">
-            <i class="fas fa-moon"></i>
-        </li>
-
-        <!-- rss -->
-        
-
-        
-            <li class="tools-item tool-scroll-to-top flex-center">
-                <i class="fas fa-arrow-up"></i>
-            </li>
-        
-
-        <li class="tools-item tool-scroll-to-bottom flex-center">
-            <i class="fas fa-arrow-down"></i>
-        </li>
-    </ul>
-
-    <ul class="exposed-tools-list">
-        <li class="tools-item tool-toggle-show flex-center">
-            <i class="fas fa-cog fa-spin"></i>
-        </li>
-        
-    </ul>
-</div>
-
-    </div>
-
-    
-
-    <div class="image-viewer-container">
-    <img src="">
-</div>
-
-
-    
-        <div class="search-pop-overlay">
-    <div class="popup search-popup">
-        <div class="search-header">
-          <span class="search-input-field-pre">
-            <i class="fas fa-keyboard"></i>
-          </span>
-            <div class="search-input-container">
-                <input autocomplete="off"
-                       autocorrect="off"
-                       autocapitalize="off"
-                       placeholder="Search..."
-                       spellcheck="false"
-                       type="search"
-                       class="search-input"
-                >
-            </div>
-            <span class="popup-btn-close">
-                <i class="fas fa-times"></i>
-            </span>
-        </div>
-        <div id="search-result">
-            <div id="no-result">
-                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
-            </div>
-        </div>
-    </div>
-</div>
-
-    
-
-</main>
-
-
-
-
-
-<script src="/js/utils.js"></script>
-
-<script src="/js/main.js"></script>
-
-<script src="/js/header-shrink.js"></script>
-
-<script src="/js/back2top.js"></script>
-
-<script src="/js/dark-light-toggle.js"></script>
-
-
-
-    
-<script src="/js/local-search.js"></script>
-
-
-
-
-    
-<script src="/js/code-copy.js"></script>
-
-
-
-
-    
-<script src="/js/lazyload.js"></script>
-
-
-
-<div class="post-scripts pjax">
-    
-</div>
-
-
-    
-<script src="/js/libs/pjax.min.js"></script>
-
-<script>
-    window.addEventListener('DOMContentLoaded', () => {
-        window.pjax = new Pjax({
-            selectors: [
-                'head title',
-                '.page-container',
-                '.pjax'
-            ],
-            history: true,
-            debug: false,
-            cacheBust: false,
-            timeout: 0,
-            analytics: false,
-            currentUrlFullReload: false,
-            scrollRestoration: false,
-            // scrollTo: true,
-        });
-
-        document.addEventListener('pjax:send', () => {
-            REDEFINE.utils.pjaxProgressBarStart();
-        });
-
-        document.addEventListener('pjax:complete', () => {
-            REDEFINE.utils.pjaxProgressBarEnd();
-            window.pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'));
-            REDEFINE.refresh();
-        });
-    });
-</script>
-
-
-
-</body>
-</html>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/web%E5%89%8D%E7%AB%AF/"><span class="card-category-list-name">web前端</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%8A%80%E6%9C%AF/"><span class="card-category-list-name">技术</span><span class="card-category-list-count">1</span></a><ul class="card-category-list child"><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%8A%80%E6%9C%AF/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/"><span class="card-category-list-name">建站笔记</span><span class="card-category-list-count">1</span></a></li></ul></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%8B%A5%E6%8A%B1%E6%8A%80%E6%9C%AF/"><span class="card-category-list-name">拥抱技术</span><span class="card-category-list-count">2</span></a><ul class="card-category-list child"><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%8B%A5%E6%8A%B1%E6%8A%80%E6%9C%AF/CSS/"><span class="card-category-list-name">CSS</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%8B%A5%E6%8A%B1%E6%8A%80%E6%9C%AF/%E4%BA%91%E8%AE%A1%E7%AE%97/"><span class="card-category-list-name">云计算</span><span class="card-category-list-count">1</span></a></li></ul></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%8B%A5%E6%8A%B1%E6%8A%80%E6%9C%AF-%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91/"><span class="card-category-list-name">拥抱技术 - 网站开发</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E6%83%B3/"><span class="card-category-list-name">生活随想</span><span class="card-category-list-count">1</span></a></li>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E5%B7%A5%E5%85%B7%E4%BB%8B%E7%BB%8D/" style="font-size: 1.1em; color: #999">工具介绍</a> <a href="/tags/%E6%B5%8B%E8%AF%95%E6%A0%87%E7%AD%BE/" style="font-size: 1.1em; color: #999">测试标签</a> <a href="/tags/%E6%B3%95%E8%AF%AD%E5%AD%A6%E4%B9%A0/" style="font-size: 1.3em; color: #99a1ac">法语学习</a> <a href="/tags/%E8%8B%B1%E8%AF%AD/" style="font-size: 1.1em; color: #999">英语</a> <a href="/tags/%E7%94%9F%E6%B4%BB/" style="font-size: 1.1em; color: #999">生活</a> <a href="/tags/%E5%86%99%E4%BD%9C%E5%AE%9E%E8%B7%B5/" style="font-size: 1.5em; color: #99a9bf">写作实践</a> <a href="/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/" style="font-size: 1.1em; color: #999">项目管理</a> <a href="/tags/%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91/" style="font-size: 1.3em; color: #99a1ac">网站开发</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/05/"><span class="card-archive-list-date">五月 2023</span><span class="card-archive-list-count">3</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/04/"><span class="card-archive-list-date">四月 2023</span><span class="card-archive-list-count">19</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/12/"><span class="card-archive-list-date">十二月 2022</span><span class="card-archive-list-count">6</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/11/"><span class="card-archive-list-date">十一月 2022</span><span class="card-archive-list-count">1</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">29</div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">7.9k</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2023-05-13T07:02:23.236Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer" style="background: #2A363B"><div id="footer-wrap"><div class="copyright">&copy;2023 By 罗大叶</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">我是大叶，让语言与技术交融。</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>window.typedJSFn = {
+  init: (str) => {
+    window.typed = new Typed('#subtitle', Object.assign({
+      strings: str,
+      startDelay: 300,
+      typeSpeed: 150,
+      loop: true,
+      backSpeed: 50,
+    }, null))
+  },
+  run: (subtitleType) => {
+    if (true) {
+      if (typeof Typed === 'function') {
+        subtitleType()
+      } else {
+        getScript('https://cdn.jsdelivr.net/npm/typed.js/lib/typed.min.js').then(subtitleType)
+      }
+    } else {
+      subtitleType()
+    }
+  }
+}
+</script><script>function subtitleType () {
+  if (true) {
+    typedJSFn.init(["我是大叶<br>让语言与技术交融"])
+  } else {
+    document.getElementById("subtitle").innerHTML = '我是大叶<br>让语言与技术交融'
+  }
+}
+typedJSFn.run(subtitleType)</script></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div class="no-result" id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div>
+        <style>
+            [bg-lazy] {
+                background-image: none !important;
+                background-color: #eee !important;
+            }
+        </style>
+        <script>
+            window.imageLazyLoadSetting = {
+                isSPA: false,
+                preloadRatio: 1,
+                processImages: null,
+            };
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(r){r.imageLazyLoadSetting.processImages=t;var e=r.imageLazyLoadSetting.isSPA,n=r.imageLazyLoadSetting.preloadRatio||1,c=a();function a(){var t=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")),e=Array.prototype.slice.call(document.querySelectorAll("[bg-lazy]"));return t.concat(e)}function t(){e&&(c=a());for(var t,o=0;o<c.length;o++)0<=(t=(t=c[o]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(r.innerHeight*n||document.documentElement.clientHeight*n)&&function(){var t,e,n,a,i=c[o];e=function(){c=c.filter(function(t){return i!==t}),r.imageLazyLoadSetting.onImageLoaded&&r.imageLazyLoadSetting.onImageLoaded(i)},(t=i).hasAttribute("bg-lazy")?(t.removeAttribute("bg-lazy"),e&&e()):(n=new Image,a=t.getAttribute("data-original"),n.onload=function(){t.src=a,t.removeAttribute("data-original"),e&&e()},t.src!==a&&(n.src=a))}()}function i(){clearTimeout(t.tId),t.tId=setTimeout(t,500)}t(),document.addEventListener("scroll",i),r.addEventListener("resize",i),r.addEventListener("orientationchange",i)}(this);</script></body></html>

@@ -1,0 +1,303 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,viewport-fit=cover"><title>Markdown是什么？——一份简单易懂的教程 | TechLang</title><meta name="author" content="罗大叶"><meta name="copyright" content="罗大叶"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="Markdown是什么？——一份简单易懂的教程首先，请看一张动图：  有没有觉得很神奇？你只是在纯打字，按下换行的瞬间，没做任何操作，文本就自动拥有了美观的格式，左侧的【大纲】栏还自动生成了文章目录，整个过程美观又省心。 这就是Markdown，如果让我用简单的话来介绍它，我会这样告诉你：  Markdown 是一种写作方式，用这种方式写作时，只要在文本前添加特定的符号，就可以让文本自动变成特定的">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Markdown是什么？——一份简单易懂的教程">
+<meta property="og:url" content="https://techlanglily.github.io/posts/c67a526.html">
+<meta property="og:site_name" content="TechLang">
+<meta property="og:description" content="Markdown是什么？——一份简单易懂的教程首先，请看一张动图：  有没有觉得很神奇？你只是在纯打字，按下换行的瞬间，没做任何操作，文本就自动拥有了美观的格式，左侧的【大纲】栏还自动生成了文章目录，整个过程美观又省心。 这就是Markdown，如果让我用简单的话来介绍它，我会这样告诉你：  Markdown 是一种写作方式，用这种方式写作时，只要在文本前添加特定的符号，就可以让文本自动变成特定的">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://myblldy.oss-cn-beijing.aliyuncs.com/img/redcover.png">
+<meta property="article:published_time" content="2023-04-04T09:28:51.000Z">
+<meta property="article:modified_time" content="2023-05-09T10:41:50.312Z">
+<meta property="article:author" content="罗大叶">
+<meta property="article:tag" content="写作实践">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://myblldy.oss-cn-beijing.aliyuncs.com/img/redcover.png"><link rel="shortcut icon" href="https://myblldy.oss-cn-beijing.aliyuncs.com/img/faviconred.png"><link rel="canonical" href="https://techlanglily.github.io/posts/c67a526.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":50,"languages":{"author":"作者: 罗大叶","link":"链接: ","source":"来源: TechLang","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  }
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Markdown是什么？——一份简单易懂的教程',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2023-05-09 18:41:50'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><script>window.paceOptions = {
+  restartOnPushState: false
+}
+
+document.addEventListener('pjax:send', () => {
+  Pace.restart()
+})
+</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js/themes/blue/pace-theme-minimal.min.css"/><script src="https://cdn.jsdelivr.net/npm/pace-js/pace.min.js"></script><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/loading.gif" data-original="https://myblldy.oss-cn-beijing.aliyuncs.com/img/faviconred.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">29</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">8</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">12</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-address-card"></i><span> 关于我</span></a></div><div class="menus_item"><a class="site-page" href="/portfolio/"><i class="fa-fw fas fa-star"></i><span> 作品展示</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-graduation-cap"></i><span> 博文</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img fixed" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="TechLang"><span class="site-name">TechLang</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-address-card"></i><span> 关于我</span></a></div><div class="menus_item"><a class="site-page" href="/portfolio/"><i class="fa-fw fas fa-star"></i><span> 作品展示</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-graduation-cap"></i><span> 博文</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">Markdown是什么？——一份简单易懂的教程</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-04-04T09:28:51.000Z" title="发表于 2023-04-04 17:28:51">2023-04-04</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-05-09T10:41:50.312Z" title="更新于 2023-05-09 18:41:50">2023-05-09</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">2.2k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>6分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Markdown是什么？——一份简单易懂的教程"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div><article class="post-content" id="article-container"><h1 id="Markdown是什么？——一份简单易懂的教程"><a href="#Markdown是什么？——一份简单易懂的教程" class="headerlink" title="Markdown是什么？——一份简单易懂的教程"></a>Markdown是什么？——一份简单易懂的教程</h1><p>首先，请看一张动图：</p>
+<p><img src="/img/loading.gif" data-original="https://myblldy.oss-cn-beijing.aliyuncs.com/img/Typora_GEBrtfNvgG-imageonline.co-7267369.gif" alt="用Typora演示Markdown"></p>
+<p>有没有觉得很神奇？你只是在纯打字，按下换行的瞬间，没做任何操作，文本就自动拥有了美观的格式，左侧的【大纲】栏还自动生成了文章目录，整个过程美观又省心。</p>
+<p>这就是Markdown，如果让我用简单的话来介绍它，我会这样告诉你：</p>
+<blockquote>
+<p>Markdown 是一种写作方式，用这种方式写作时，只要在文本前添加特定的符号，就可以让文本自动变成特定的格式，从而为写作者省时省力。</p>
+</blockquote>
+<h2 id="1-Markdown介绍"><a href="#1-Markdown介绍" class="headerlink" title="1. Markdown介绍"></a>1. Markdown介绍</h2><h3 id="1-1-适用场景"><a href="#1-1-适用场景" class="headerlink" title="1.1 适用场景"></a>1.1 适用场景</h3><p>如果你要做的，是类似写毕业论文这种，<strong>对格式有很多特定要求</strong>的写作，那么很遗憾，Markdown并不适合这种写作任务，因为它的字体字号等样式都是已经设定好的，没办法自己再调，这是因为这种写作方式的初心就是让你不必自己调格式。</p>
+<p>如果你要做的，是类似写报告发给他人、在个人博客里写文章、在电脑上做学习笔记这种，<strong>不对具体字号字间距做要求</strong>，只要文章整体美观有条理就可以的写作，那Markdown会是让你省时省力的好选择。</p>
+<hr>
+<h3 id="1-2-上手试一试"><a href="#1-2-上手试一试" class="headerlink" title="1.2 上手试一试"></a>1.2 上手试一试</h3><p>想学Markdown其实很快，如果你想使用Markdown，只需要：</p>
+<ol>
+<li>找一款支持这种写作方式的软件 </li>
+<li>记住那几个写在文本前的特定符号</li>
+</ol>
+<p>对于这两点，第二点是核心，只要懂得Markdown怎么用，用哪个工具都随便你。你可以在记住了这几个符号后，去体验各种不同的工具，比如我在文章开头给你做演示用的Typora。而这些符号其实自己敲几次很快就能记住，所以你可以边看这篇文章边跟我做，在读的同时顺手就把Markdown学了。</p>
+<h4 id="1-2-1-试手工具"><a href="#1-2-1-试手工具" class="headerlink" title="1.2.1 试手工具"></a>1.2.1 试手工具</h4><p>我们可以用文章开头演示的Typora来试手，因为它的使用体验比较好。这个软件现在是收费的，但是之前的免费版本网上也有，并且免费版功能就已经够用，所以无论你是想用付费版还是免费版都可以满足需求。</p>
+<p>最新版Typora有15天试用期，我们就选它来试手。首先进入<a target="_blank" rel="noopener" href="https://typoraio.cn/">Typora 官网 </a>，下拉到下载部分，下载并安装对应系统的Typora：</p>
+<p><img src="/img/loading.gif" data-original="https://myblldy.oss-cn-beijing.aliyuncs.com/img/image-20230509141049770.png" alt="Typora官网下载处"></p>
+<p>当然，如果你嫌下软件麻烦，也可以选个点击即用的线上工具，比如这个：<a target="_blank" rel="noopener" href="https://tool.offso.com/markdown">Markdown在线编辑器,所见即所得 | 沃夫工具 (offso.com)</a>。线上工具的差别只在它是左边打字右边实时预览，在学Markdown的效果上没什么区别：</p>
+<p><img src="/img/loading.gif" data-original="https://myblldy.oss-cn-beijing.aliyuncs.com/img/image-20230509142300917.png" alt="在线Markdown工具-沃夫"></p>
+<hr>
+<h4 id="1-2-2-试手样式"><a href="#1-2-2-试手样式" class="headerlink" title="1.2.2 试手样式"></a>1.2.2 试手样式</h4><p>那么正式开始吧！你可以把你的试手工具和这篇知乎文章一左一右同时打开在电脑桌面上，然后跟着我一起敲这些符号。</p>
+<p>我们按写一篇文章的逻辑顺序来：</p>
+<h5 id="a-列全文粗纲-用标题样式"><a href="#a-列全文粗纲-用标题样式" class="headerlink" title="a. 列全文粗纲-用标题样式"></a>a. 列全文粗纲-用标题样式</h5><p>请在文本前输入：**# + 空格**。一个井号代表一级标题，两个井号二级标题，以此类推，一共可以到六级:</p>
+<blockquote>
+<p># 一级标题</p>
+<p>## 二级标题</p>
+<p>‘### 三级标题</p>
+<p>…</p>
+<p>###### 六级标题</p>
+</blockquote>
+<p>输出效果：</p>
+<blockquote>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><p>…</p>
+<h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6></blockquote>
+<h5 id="b-写正文细纲-用列表样式"><a href="#b-写正文细纲-用列表样式" class="headerlink" title="b. 写正文细纲-用列表样式"></a>b. 写正文细纲-用列表样式</h5><p>我们可以通过分点陈列的方式来写一段正文的细纲，也就是使用“列表”格式，请在文本前输入：**+ + 空格**：</p>
+<blockquote>
+<p>+ 第一个观点</p>
+</blockquote>
+<p>输出效果：</p>
+<blockquote>
+<ul>
+<li>第一个观点</li>
+</ul>
+</blockquote>
+<p>接下来，当你想另起一点时，只要按回车键换行就行了，下一行会自动生成一个小点点，当你想结束分点陈列时，就按两次回车键，退出列表格式。</p>
+<blockquote>
+<p>+ 第一个观点</p>
+<p>+ 第二个观点</p>
+<p>+ 第三个观点</p>
+</blockquote>
+<p>输出效果：</p>
+<blockquote>
+<ul>
+<li>第一个观点</li>
+<li>第二个观点</li>
+<li>第三个观点</li>
+</ul>
+</blockquote>
+<p>如果你的细纲还分多个层级，那就打多级列表，也就是在回车健换行之后再按个Tab键，那这一行列表就会自动缩进一个空格，这时，如果你想回到上一级列表，就按Shift+Tab健。退出列表则依旧是按多次回车。</p>
+<p>输出效果：</p>
+<blockquote>
+<ul>
+<li><p>第一个观点</p>
+<ul>
+<li>分论点一</li>
+<li>分论点二</li>
+</ul>
+</li>
+<li><p>第二个观点</p>
+</li>
+</ul>
+</blockquote>
+<p>如果你想这个列表是有序的，那就将“+”号替换成“1.”，即在文本前输入：<strong>1. + 空格</strong>，后续操作与上方的无序列表一样：</p>
+<blockquote>
+<ol>
+<li>第一个观点</li>
+</ol>
+</blockquote>
+<blockquote>
+<p>输出效果：</p>
+<ol>
+<li>第一个观点</li>
+<li>第二个观点</li>
+<li>第三个观点</li>
+</ol>
+</blockquote>
+<h5 id="d-突出重点字词-用加粗样式"><a href="#d-突出重点字词-用加粗样式" class="headerlink" title="d. 突出重点字词-用加粗样式"></a>d. 突出重点字词-用加粗样式</h5><p>写正文时，我们会突出重点，可以把它加粗，只需把重点内容包在两个星号（**）中：</p>
+<blockquote>
+<p>输入：*<em>想要加粗的内容</em>*</p>
+<p>显示效果：<strong>想要加粗的内容</strong></p>
+</blockquote>
+<h5 id="b-突出重点段落-用引用格式"><a href="#b-突出重点段落-用引用格式" class="headerlink" title="b. 突出重点段落-用引用格式"></a>b. 突出重点段落-用引用格式</h5><p>如果你想突出的是一个段落，那可以打一个像我上面这样，左边有一条线的文本格式，也就是“引用”格式。这需要在文本前输入：**&gt; + 空格**:</p>
+<blockquote>
+<p>&gt; 自己要写的文本</p>
+</blockquote>
+<p>输出效果：</p>
+<blockquote>
+<blockquote>
+<p>自己要写的文本</p>
+</blockquote>
+</blockquote>
+<h5 id="e-划分文章结构-用分割线样式"><a href="#e-划分文章结构-用分割线样式" class="headerlink" title="e. 划分文章结构-用分割线样式"></a>e. 划分文章结构-用分割线样式</h5><p>写完一部分后，我们可以加条分割线，使文章内容在视觉上结构更分明。这时，只需在单独的一行空行开头打上：—</p>
+<blockquote>
+<p>输入：-– </p>
+</blockquote>
+<p>输出效果：</p>
+<blockquote>
+<hr>
+</blockquote>
+<p>好了，试敲就到这里，相信通过这几个例子你应该能明白Markdown文本怎么写了，平时写作时一般这几个格式也就够用了，如果你还想学更多的样式，比如表格、添加图片、添加超链接等，请前往本文《1.4 Markdown 的所有语法》部分。</p>
+<hr>
+<h3 id="1-3-Markdown-的所有语法"><a href="#1-3-Markdown-的所有语法" class="headerlink" title="1.3 Markdown 的所有语法"></a>1.3 Markdown 的所有语法</h3><p>上文中，当需要不同格式时，我们需要往文本前添加不同符号，这种什么格式配什么符号的规则，我们叫它“语法”。Markdown 所有语法加起来也没多少，其中平时频繁用到的更少，因此非常好记，你可以在需要时去官网查对应的语法：Markdown 基本语法 | Markdown 官方教程](<a target="_blank" rel="noopener" href="https://markdown.com.cn/basic-syntax/)%E3%80%82">https://markdown.com.cn/basic-syntax/)。</a></p>
+<p><img src="/img/loading.gif" data-original="https://myblldy.oss-cn-beijing.aliyuncs.com/img/image-20230331010626373.png" alt="Markdown基本语法"></p>
+<p>事实上，Markdown还有更多玩法，比如做思维导图、甘特图，甚至是做PPT，这些等你在熟悉它以后，如果还感兴趣，可以再去探索。</p>
+<h2 id="2-Markdown-工具推荐"><a href="#2-Markdown-工具推荐" class="headerlink" title="2. Markdown 工具推荐"></a>2. Markdown 工具推荐</h2><p>如果你选择的试手工具是线上的，你可能会有疑问：为什么我这个和文章开头的动图不一样？为什么我这个不是即打即显？这是因为即打即显并不是Markdownd工具的普遍功能，所以如果你想要这样的效果，就要选择相对应的工具。</p>
+<p>Markdown工具分两类，一类是软件形式，比如 Typora，一类是平台形式，比如知乎简书之类的平台现在都支持使用Markdown。因此，这一部分主要推荐些好用的Markdown工具。</p>
+<h3 id="2-1-Typora"><a href="#2-1-Typora" class="headerlink" title="2.1 Typora"></a>2.1 Typora</h3><p>这款工具就是我在文章开头动图演示用的工具，它的一个最大特点就是即打即显，会自动生成文本大纲，并可以把文本导出成多种格式。它的官网是：<a target="_blank" rel="noopener" href="https://typoraio.cn/">Typora 官方中文站 (typoraio.cn)</a>。这款好用的工具现在已经收费，89元三台设备买断，但是可以试用15天，你可以先试用看看。另外，如上文所说，typora早期的beta版还是免费的，其功能我个人是觉得就已经够用，你也可以去网上搜索相应资源。</p>
+<h2 id="3-关于Markdown使用的一些问题"><a href="#3-关于Markdown使用的一些问题" class="headerlink" title="3. 关于Markdown使用的一些问题"></a>3. 关于Markdown使用的一些问题</h2><h3 id="3-1-我对markdown的样式不满意？"><a href="#3-1-我对markdown的样式不满意？" class="headerlink" title="3.1 我对markdown的样式不满意？"></a>3.1 我对markdown的样式不满意？</h3><p>Markdown文本的样式是可以自己选的，以Typora为例，这个样式在Typora叫“主题”，你可以选择自己喜欢的样式：</p>
+<p><img src="/img/loading.gif" data-original="https://myblldy.oss-cn-beijing.aliyuncs.com/img/image-20230331220658571.png" alt="Typora主题"></p>
+<p>我以我自己用的为例，平时写作时，我喜欢用类似drake-dark的主题，深色护眼：</p>
+<p><img src="/img/loading.gif" data-original="https://myblldy.oss-cn-beijing.aliyuncs.com/img/thumbnail-dark.png" alt="Drake-dark主题"></p>
+<p>但在导出发给别人时，我会选择稍微漂亮点的，比如我最近的新宠Orange Heart主题：</p>
+<p><img src="/img/loading.gif" data-original="https://myblldy.oss-cn-beijing.aliyuncs.com/img/english-1680609866764-2.png" alt="Orange Heart主题"></p>
+<p>具体Typora换主题教程：</p>
+<ol>
+<li><p>上面说的主题官网：<a target="_blank" rel="noopener" href="https://theme.typora.io/">Themes Gallery — Typora</a>（可能需要科学上网，网上也有其他人分享）</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_44996090/article/details/104505277">Typora更换主题详细步骤_泰勒Peano的博客-CSDN博客</a></p>
+</li>
+<li><p>官方自己给的换主题教程：<a target="_blank" rel="noopener" href="https://support.typoraio.cn/About-Themes/">About Themes - Typora Support (typoraio.cn)</a></p>
+</li>
+</ol>
+<hr>
+<p>这篇教程到这里就结束啦，如果你有相关问题，可以评论留言，我会把它们补充到文中。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://TechLangLily.github.io">罗大叶</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://techlanglily.github.io/posts/c67a526.html">https://techlanglily.github.io/posts/c67a526.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://TechLangLily.github.io" target="_blank">TechLang</a>！</span></div></div><div class="tag_share"><div class="post_share"><div class="social-share" data-image="https://myblldy.oss-cn-beijing.aliyuncs.com/img/redcover.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/posts/c67a526.html" title="Markdown是什么？——一份简单易懂的教程"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Markdown是什么？——一份简单易懂的教程</div></div></a></div><div class="next-post pull-right"><a href="/posts/edab9f40.html" title="dingding"><img class="cover" src="/img/loading.gif" data-original="https://s1.ax1x.com/2023/04/22/p9V5JN4.png" onerror="onerror=null;src='https://myblldy.oss-cn-beijing.aliyuncs.com/img/404loading.png'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">dingding</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/posts/edab9f40.html" title="dingding"><img class="cover" src="/img/loading.gif" data-original="https://s1.ax1x.com/2023/04/22/p9V5JN4.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-12-19</div><div class="title">dingding</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/loading.gif" data-original="https://myblldy.oss-cn-beijing.aliyuncs.com/img/faviconred.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">罗大叶</div><div class="author-info__description">一个关注翻译、编程与技术写作的个人博客。</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">29</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">8</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">12</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/Yc7zX9NJcKLGFy0oZFhL7A"><i class="fas fa-comments"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://mp.weixin.qq.com/s/Yc7zX9NJcKLGFy0oZFhL7A" target="_blank" title="微信公众号"><i class="fas fa-comments"></i></a><a class="social-icon" href="https://www.zhihu.com/people/yu-ke-87-33/following" target="_blank" title="知乎"><i class="fab fa-quora"></i></a><a class="social-icon" href="https://github.com/xxxxx" target="_blank" title="Github"><i class="fab fa-github"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">微信公众号：TechLang<br>知乎：罗大叶<br>公众号存放精选文章<br>知乎偶尔答题<br>博客归档所有文章<br>欢迎关注。</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content is-expand"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Markdown%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E2%80%94%E2%80%94%E4%B8%80%E4%BB%BD%E7%AE%80%E5%8D%95%E6%98%93%E6%87%82%E7%9A%84%E6%95%99%E7%A8%8B"><span class="toc-number">1.</span> <span class="toc-text">Markdown是什么？——一份简单易懂的教程</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-Markdown%E4%BB%8B%E7%BB%8D"><span class="toc-number">1.1.</span> <span class="toc-text">1. Markdown介绍</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1-%E9%80%82%E7%94%A8%E5%9C%BA%E6%99%AF"><span class="toc-number">1.1.1.</span> <span class="toc-text">1.1 适用场景</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-2-%E4%B8%8A%E6%89%8B%E8%AF%95%E4%B8%80%E8%AF%95"><span class="toc-number">1.1.2.</span> <span class="toc-text">1.2 上手试一试</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-1-%E8%AF%95%E6%89%8B%E5%B7%A5%E5%85%B7"><span class="toc-number">1.1.2.1.</span> <span class="toc-text">1.2.1 试手工具</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-2-%E8%AF%95%E6%89%8B%E6%A0%B7%E5%BC%8F"><span class="toc-number">1.1.2.2.</span> <span class="toc-text">1.2.2 试手样式</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#a-%E5%88%97%E5%85%A8%E6%96%87%E7%B2%97%E7%BA%B2-%E7%94%A8%E6%A0%87%E9%A2%98%E6%A0%B7%E5%BC%8F"><span class="toc-number">1.1.2.2.1.</span> <span class="toc-text">a. 列全文粗纲-用标题样式</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="toc-number">2.</span> <span class="toc-text">一级标题</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="toc-number">2.1.</span> <span class="toc-text">二级标题</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%89%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="toc-number">2.1.1.</span> <span class="toc-text">三级标题</span></a><ol class="toc-child"><li class="toc-item toc-level-6"><a class="toc-link" href="#%E5%85%AD%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="toc-number">2.1.1.0.0.1.</span> <span class="toc-text">六级标题</span></a></li></ol></li><li class="toc-item toc-level-5"><a class="toc-link" href="#b-%E5%86%99%E6%AD%A3%E6%96%87%E7%BB%86%E7%BA%B2-%E7%94%A8%E5%88%97%E8%A1%A8%E6%A0%B7%E5%BC%8F"><span class="toc-number">2.1.1.0.1.</span> <span class="toc-text">b. 写正文细纲-用列表样式</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#d-%E7%AA%81%E5%87%BA%E9%87%8D%E7%82%B9%E5%AD%97%E8%AF%8D-%E7%94%A8%E5%8A%A0%E7%B2%97%E6%A0%B7%E5%BC%8F"><span class="toc-number">2.1.1.0.2.</span> <span class="toc-text">d. 突出重点字词-用加粗样式</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#b-%E7%AA%81%E5%87%BA%E9%87%8D%E7%82%B9%E6%AE%B5%E8%90%BD-%E7%94%A8%E5%BC%95%E7%94%A8%E6%A0%BC%E5%BC%8F"><span class="toc-number">2.1.1.0.3.</span> <span class="toc-text">b. 突出重点段落-用引用格式</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#e-%E5%88%92%E5%88%86%E6%96%87%E7%AB%A0%E7%BB%93%E6%9E%84-%E7%94%A8%E5%88%86%E5%89%B2%E7%BA%BF%E6%A0%B7%E5%BC%8F"><span class="toc-number">2.1.1.0.4.</span> <span class="toc-text">e. 划分文章结构-用分割线样式</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-3-Markdown-%E7%9A%84%E6%89%80%E6%9C%89%E8%AF%AD%E6%B3%95"><span class="toc-number">2.1.2.</span> <span class="toc-text">1.3 Markdown 的所有语法</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-Markdown-%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90"><span class="toc-number">2.2.</span> <span class="toc-text">2. Markdown 工具推荐</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2-1-Typora"><span class="toc-number">2.2.1.</span> <span class="toc-text">2.1 Typora</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E5%85%B3%E4%BA%8EMarkdown%E4%BD%BF%E7%94%A8%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98"><span class="toc-number">2.3.</span> <span class="toc-text">3. 关于Markdown使用的一些问题</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-%E6%88%91%E5%AF%B9markdown%E7%9A%84%E6%A0%B7%E5%BC%8F%E4%B8%8D%E6%BB%A1%E6%84%8F%EF%BC%9F"><span class="toc-number">2.3.1.</span> <span class="toc-text">3.1 我对markdown的样式不满意？</span></a></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/posts/9f332de4.html" title="Hexo 博客涉及到的几种文件"><img src="/img/loading.gif" data-original="https://myblldy.oss-cn-beijing.aliyuncs.com/img/redcover.png" onerror="this.onerror=null;this.src='https://myblldy.oss-cn-beijing.aliyuncs.com/img/404loading.png'" alt="Hexo 博客涉及到的几种文件"/></a><div class="content"><a class="title" href="/posts/9f332de4.html" title="Hexo 博客涉及到的几种文件">Hexo 博客涉及到的几种文件</a><time datetime="2023-05-12T08:23:41.000Z" title="发表于 2023-05-12 16:23:41">2023-05-12</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/f2473c7c.html" title="组会报告"><img src="/img/loading.gif" data-original="https://myblldy.oss-cn-beijing.aliyuncs.com/img/yellowcover.png" onerror="this.onerror=null;this.src='https://myblldy.oss-cn-beijing.aliyuncs.com/img/404loading.png'" alt="组会报告"/></a><div class="content"><a class="title" href="/posts/f2473c7c.html" title="组会报告">组会报告</a><time datetime="2023-05-10T15:51:48.000Z" title="发表于 2023-05-10 23:51:48">2023-05-10</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/undefined.html" title="portfolio"><img src="/img/loading.gif" data-original="https://s1.ax1x.com/2023/05/05/p9UVPW8.png" onerror="this.onerror=null;this.src='https://myblldy.oss-cn-beijing.aliyuncs.com/img/404loading.png'" alt="portfolio"/></a><div class="content"><a class="title" href="/posts/undefined.html" title="portfolio">portfolio</a><time datetime="2023-05-06T06:59:53.000Z" title="发表于 2023-05-06 14:59:53">2023-05-06</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/1f3cf827.html" title="Markdown常用样式测试"><img src="/img/loading.gif" data-original="https://s1.ax1x.com/2023/05/05/p9UVCJf.png" onerror="this.onerror=null;this.src='https://myblldy.oss-cn-beijing.aliyuncs.com/img/404loading.png'" alt="Markdown常用样式测试"/></a><div class="content"><a class="title" href="/posts/1f3cf827.html" title="Markdown常用样式测试">Markdown常用样式测试</a><time datetime="2023-04-28T05:52:36.000Z" title="发表于 2023-04-28 13:52:36">2023-04-28</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/4d1df81a.html" title="建站笔记"><img src="/img/loading.gif" data-original="https://s1.ax1x.com/2023/05/05/p9UVPW8.png" onerror="this.onerror=null;this.src='https://myblldy.oss-cn-beijing.aliyuncs.com/img/404loading.png'" alt="建站笔记"/></a><div class="content"><a class="title" href="/posts/4d1df81a.html" title="建站笔记">建站笔记</a><time datetime="2023-04-28T05:19:40.000Z" title="发表于 2023-04-28 13:19:40">2023-04-28</time></div></div></div></div></div></div></main><footer id="footer" style="background: #2A363B"><div id="footer-wrap"><div class="copyright">&copy;2023 By 罗大叶</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">我是大叶，让语言与技术交融。</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div class="no-result" id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div>
+        <style>
+            [bg-lazy] {
+                background-image: none !important;
+                background-color: #eee !important;
+            }
+        </style>
+        <script>
+            window.imageLazyLoadSetting = {
+                isSPA: false,
+                preloadRatio: 1,
+                processImages: null,
+            };
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(r){r.imageLazyLoadSetting.processImages=t;var e=r.imageLazyLoadSetting.isSPA,n=r.imageLazyLoadSetting.preloadRatio||1,c=a();function a(){var t=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")),e=Array.prototype.slice.call(document.querySelectorAll("[bg-lazy]"));return t.concat(e)}function t(){e&&(c=a());for(var t,o=0;o<c.length;o++)0<=(t=(t=c[o]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(r.innerHeight*n||document.documentElement.clientHeight*n)&&function(){var t,e,n,a,i=c[o];e=function(){c=c.filter(function(t){return i!==t}),r.imageLazyLoadSetting.onImageLoaded&&r.imageLazyLoadSetting.onImageLoaded(i)},(t=i).hasAttribute("bg-lazy")?(t.removeAttribute("bg-lazy"),e&&e()):(n=new Image,a=t.getAttribute("data-original"),n.onload=function(){t.src=a,t.removeAttribute("data-original"),e&&e()},t.src!==a&&(n.src=a))}()}function i(){clearTimeout(t.tId),t.tId=setTimeout(t,500)}t(),document.addEventListener("scroll",i),r.addEventListener("resize",i),r.addEventListener("orientationchange",i)}(this);</script></body></html>
