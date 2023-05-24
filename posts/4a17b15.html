@@ -1,0 +1,188 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,viewport-fit=cover"><title>Hello World | TechLang</title><meta name="author" content="罗大叶"><meta name="copyright" content="罗大叶"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="现在是2023年5月24日19:24分， 我终于在解决了两个卡了我几星期的问题后， 完成了这个 Hexo 博客的搭建、美化与部署， 建立了第一个自己搭建、自己来决定一切内容的个人平台。 这篇博文是我在这个博客发的第一篇文章，很有纪念意义， 因此我选择在搭建完成后又回到这里，写一写这一刻的心情。 现在回看，这篇文章的发表时间是2022年11月30日。 那是我第一次接触 Hexo 博客，还记得那时用的">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hello World">
+<meta property="og:url" content="https://techlangldy.github.io/posts/4a17b15.html">
+<meta property="og:site_name" content="TechLang">
+<meta property="og:description" content="现在是2023年5月24日19:24分， 我终于在解决了两个卡了我几星期的问题后， 完成了这个 Hexo 博客的搭建、美化与部署， 建立了第一个自己搭建、自己来决定一切内容的个人平台。 这篇博文是我在这个博客发的第一篇文章，很有纪念意义， 因此我选择在搭建完成后又回到这里，写一写这一刻的心情。 现在回看，这篇文章的发表时间是2022年11月30日。 那是我第一次接触 Hexo 博客，还记得那时用的">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://myblldy.oss-cn-beijing.aliyuncs.com/img/redcover.png">
+<meta property="article:published_time" content="2023-05-03T08:42:29.968Z">
+<meta property="article:modified_time" content="2023-05-24T12:28:46.673Z">
+<meta property="article:author" content="罗大叶">
+<meta property="article:tag" content="翻译 技术写作 python">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://myblldy.oss-cn-beijing.aliyuncs.com/img/redcover.png"><link rel="shortcut icon" href="https://myblldy.oss-cn-beijing.aliyuncs.com/img/faviconred.png"><link rel="canonical" href="https://techlangldy.github.io/posts/4a17b15.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":50,"languages":{"author":"作者: 罗大叶","link":"链接: ","source":"来源: TechLang","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  }
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Hello World',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2023-05-24 20:28:46'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><script>window.paceOptions = {
+  restartOnPushState: false
+}
+
+document.addEventListener('pjax:send', () => {
+  Pace.restart()
+})
+</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js/themes/blue/pace-theme-minimal.min.css"/><script src="https://cdn.jsdelivr.net/npm/pace-js/pace.min.js"></script><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/frind_404.gif" data-original="https://myblldy.oss-cn-beijing.aliyuncs.com/img/faviconred.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">10</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-address-card"></i><span> 关于我</span></a></div><div class="menus_item"><a class="site-page" href="/portfolio/"><i class="fa-fw fas fa-star"></i><span> 作品展示</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-graduation-cap"></i><span> 博文</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img fixed" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="TechLang"><span class="site-name">TechLang</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-address-card"></i><span> 关于我</span></a></div><div class="menus_item"><a class="site-page" href="/portfolio/"><i class="fa-fw fas fa-star"></i><span> 作品展示</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-graduation-cap"></i><span> 博文</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">Hello World</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-05-03T08:42:29.968Z" title="发表于 2023-05-03 16:42:29">2023-05-03</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-05-24T12:28:46.673Z" title="更新于 2023-05-24 20:28:46">2023-05-24</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">540</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>1分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Hello World"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div><article class="post-content" id="article-container"><p>现在是<code>2023年5月24日19:24分</code>，</p>
+<p>我终于在解决了两个卡了我几星期的问题后，</p>
+<p>完成了这个 Hexo 博客的搭建、美化与部署，</p>
+<p>建立了第一个自己搭建、自己来决定一切内容的个人平台。</p>
+<p>这篇博文是我在这个博客发的第一篇文章，很有纪念意义，</p>
+<p>因此我选择在搭建完成后又回到这里，写一写这一刻的心情。</p>
+<p>现在回看，这篇文章的发表时间是<code>2022年11月30日</code>。</p>
+<p>那是我第一次接触 Hexo 博客，还记得那时用的是Redefine主题，</p>
+<p>不过那时我好奇之下玩了一下便没再继续了，因为同时还在倒腾 Wordpress 博客。</p>
+<p>大概半年后，我搭建自己个人平台的想法再次强烈起来，于是在今年快五月的时候又将 Hexo 捡了回来。</p>
+<p>这次我搭建得很认真，光在主题如何美化上就花了很多时间，一个首页“<a href="https://techlangldy.github.io/about/">关于我</a>”的页面就花了几天。</p>
+<p>也因为希望按自己的想法对主题进行美化，需要做一些涉及代码层面的改动，</p>
+<p>导致我经常遇到一些问题，此前对 Hexo 博客完全没有了解的我，只能靠不断搜索和测试解决问题。</p>
+<p>这个过程很磨人，中间有过很抓狂的时候，比如文章开头困扰我的两个问题，</p>
+<p>可以毫不夸张地说，我把网上关于这两个问题的所有帖子都看了几遍，甚至因为它们跑到了 Github 提问。</p>
+<p>我完全没想过我会就在今天的此时时刻解决它们，</p>
+<p>这种出乎意料的、问题突然被解决的感觉，真的很快乐！</p>
+<p>于是这些文字就诞生了。</p>
+<p>当然，这并不是这个博客完善的结束，它只是个开始，因为内容才是一个博客的核心。</p>
+<p>我也还有更多的完善规划等着以后落实，但是现在，就让我在这个博客的第一篇帖子里说声：</p>
+<p>世界，你好！</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://techlangldy.github.io">罗大叶</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://techlangldy.github.io/posts/4a17b15.html">https://techlangldy.github.io/posts/4a17b15.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://techlangldy.github.io" target="_blank">TechLang</a>！</span></div></div><div class="tag_share"><div class="post_share"><div class="social-share" data-image="https://myblldy.oss-cn-beijing.aliyuncs.com/img/redcover.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/posts/undefined.html" title="portfolio"><img class="cover" src="/img/frind_404.gif" data-original="https://s1.ax1x.com/2023/05/05/p9UVPW8.png" onerror="onerror=null;src='https://myblldy.oss-cn-beijing.aliyuncs.com/img/404loading.png'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">portfolio</div></div></a></div><div class="next-post pull-right"><a href="/posts/1f3cf827.html" title="Markdown常用样式测试"><img class="cover" src="/img/frind_404.gif" data-original="https://s1.ax1x.com/2023/05/05/p9UVCJf.png" onerror="onerror=null;src='https://myblldy.oss-cn-beijing.aliyuncs.com/img/404loading.png'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Markdown常用样式测试</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/frind_404.gif" data-original="https://myblldy.oss-cn-beijing.aliyuncs.com/img/faviconred.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">罗大叶</div><div class="author-info__description">一个关注翻译、编程与技术写作的个人博客。</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">10</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/Yc7zX9NJcKLGFy0oZFhL7A"><i class="fas fa-comments"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://mp.weixin.qq.com/s/Yc7zX9NJcKLGFy0oZFhL7A" target="_blank" title="微信公众号"><i class="fas fa-comments"></i></a><a class="social-icon" href="https://www.zhihu.com/people/yu-ke-87-33/following" target="_blank" title="知乎"><i class="fab fa-quora"></i></a><a class="social-icon" href="https://github.com/xxxxx" target="_blank" title="Github"><i class="fab fa-github"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">微信公众号：TechLang<br>知乎：罗大叶<br>公众号存放精选文章<br>知乎偶尔答题<br>博客归档所有文章<br>欢迎关注。</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/posts/undefined.html" title="portfolio"><img src="/img/frind_404.gif" data-original="https://s1.ax1x.com/2023/05/05/p9UVPW8.png" onerror="this.onerror=null;this.src='https://myblldy.oss-cn-beijing.aliyuncs.com/img/404loading.png'" alt="portfolio"/></a><div class="content"><a class="title" href="/posts/undefined.html" title="portfolio">portfolio</a><time datetime="2023-05-06T06:59:53.000Z" title="发表于 2023-05-06 14:59:53">2023-05-06</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/4a17b15.html" title="Hello World"><img src="/img/frind_404.gif" data-original="https://myblldy.oss-cn-beijing.aliyuncs.com/img/redcover.png" onerror="this.onerror=null;this.src='https://myblldy.oss-cn-beijing.aliyuncs.com/img/404loading.png'" alt="Hello World"/></a><div class="content"><a class="title" href="/posts/4a17b15.html" title="Hello World">Hello World</a><time datetime="2023-05-03T08:42:29.968Z" title="发表于 2023-05-03 16:42:29">2023-05-03</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/1f3cf827.html" title="Markdown常用样式测试"><img src="/img/frind_404.gif" data-original="https://s1.ax1x.com/2023/05/05/p9UVCJf.png" onerror="this.onerror=null;this.src='https://myblldy.oss-cn-beijing.aliyuncs.com/img/404loading.png'" alt="Markdown常用样式测试"/></a><div class="content"><a class="title" href="/posts/1f3cf827.html" title="Markdown常用样式测试">Markdown常用样式测试</a><time datetime="2023-04-28T05:52:36.000Z" title="发表于 2023-04-28 13:52:36">2023-04-28</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/undefined.html" title="home">home</a><time datetime="2023-04-22T08:50:07.000Z" title="发表于 2023-04-22 16:50:07">2023-04-22</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/posts/83dc959.html" title="lecon17">lecon17</a><time datetime="2023-04-06T08:34:34.000Z" title="发表于 2023-04-06 16:34:34">2023-04-06</time></div></div></div></div></div></div></main><footer id="footer" style="background: #2A363B"><div id="footer-wrap"><div class="copyright">&copy;2023 By 罗大叶</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">我是大叶，让语言与技术交融。</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div class="no-result" id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div>
+        <style>
+            [bg-lazy] {
+                background-image: none !important;
+                background-color: #eee !important;
+            }
+        </style>
+        <script>
+            window.imageLazyLoadSetting = {
+                isSPA: false,
+                preloadRatio: 1,
+                processImages: null,
+            };
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(r){r.imageLazyLoadSetting.processImages=t;var e=r.imageLazyLoadSetting.isSPA,n=r.imageLazyLoadSetting.preloadRatio||1,c=a();function a(){var t=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")),e=Array.prototype.slice.call(document.querySelectorAll("[bg-lazy]"));return t.concat(e)}function t(){e&&(c=a());for(var t,o=0;o<c.length;o++)0<=(t=(t=c[o]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(r.innerHeight*n||document.documentElement.clientHeight*n)&&function(){var t,e,n,a,i=c[o];e=function(){c=c.filter(function(t){return i!==t}),r.imageLazyLoadSetting.onImageLoaded&&r.imageLazyLoadSetting.onImageLoaded(i)},(t=i).hasAttribute("bg-lazy")?(t.removeAttribute("bg-lazy"),e&&e()):(n=new Image,a=t.getAttribute("data-original"),n.onload=function(){t.src=a,t.removeAttribute("data-original"),e&&e()},t.src!==a&&(n.src=a))}()}function i(){clearTimeout(t.tId),t.tId=setTimeout(t,500)}t(),document.addEventListener("scroll",i),r.addEventListener("resize",i),r.addEventListener("orientationchange",i)}(this);</script></body></html>
